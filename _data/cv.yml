@@ -1,20 +1,20 @@
 cv:
-  [cite_start]name: Ishaan JAIN [cite: 1]
-  [cite_start]label: Nanodevices & Nanotechnology Engineer [cite: 2]
-  [cite_start]email: jain.ishaan@zohomail.eu [cite: 4]
-  [cite_start]location: Leuven, Belgium [cite: 4]
+  name: Ishaan JAIN
+  label: Nanodevices & Nanotechnology Engineer
+  email: jain.ishaan@zohomail.eu
+  location: Leuven, Belgium
   image: ""
-  [cite_start]summary: "I've always been driven to solve complex problems through scientific methods-luckily, that led me to Engineering. [cite: 6] My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical and technical challenges inherent in practical device development. [cite: 7] I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively. [cite: 8]"
+  summary: "I've always been driven to solve complex problems through scientific methods-luckily, that led me to Engineering. My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical and technical challenges inherent in practical device development. I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively."
 
   social_networks:
     - network: LinkedIn
-      [cite_start]username: ishaan-jain-7515761bb [cite: 3]
+      username: ishaan-jain-7515761bb
     - network: GitHub
-      [cite_start]username: Ishaanmina [cite: 5]
+      username: Ishaanmina
 
   address:
     street: ""
-    [cite_start]city: Leuven [cite: 4]
+    city: Leuven
     region: ""
     postalCode: ""
     countryCode: BE
@@ -22,144 +22,144 @@ cv:
   sections:
     Education:
       - institution: KU Leuven
-        [cite_start]location: Leuven, Belgium [cite: 4, 10]
+        location: Leuven, Belgium
         url: ""
-        [cite_start]area: Nanoscience, Nanotechnology and Nanoengineering with specialization in Nanodevices [cite: 10]
-        [cite_start]studyType: Master [cite: 10]
-        [cite_start]start_date: 2024 [cite: 10]
-        [cite_start]end_date: 2026(exp.) [cite: 10]
-        [cite_start]score: "GPA: Cum Laude [cite: 11]"
+        area: Nanoscience, Nanotechnology and Nanoengineering with specialization in Nanodevices
+        studyType: Master
+        start_date: 2024
+        end_date: 2026(exp.)
+        score: "GPA: Cum Laude"
         courses: ""
         highlights:
-          - [cite_start]"Thesis Subject: Modeling MOL parasitics for Advance Technology CFETs at IMEC [cite: 11]"
+          - "Thesis Subject: Modeling MOL parasitics for Advance Technology CFETs at IMEC"
 
       - institution: Indian Institute of Technology Delhi
-        [cite_start]location: Delhi, India [cite: 13]
-        [cite_start]area: Engineering Physics with focus on Eletrical Engineering [cite: 12]
-        [cite_start]studyType: Bachelor of Technology [cite: 12]
-        [cite_start]start_date: 2020 [cite: 12]
-        [cite_start]end_date: 2024 [cite: 12]
-        [cite_start]score: "GPA: First Class [cite: 14]"
+        location: Delhi, India
+        area: Engineering Physics with focus on Eletrical Engineering
+        studyType: Bachelor of Technology
+        start_date: 2020
+        end_date: 2024
+        score: "GPA: First Class"
         highlights:
-          - [cite_start]"Thesis Subject: Designing and Simulation Single Photon Avalanche Devices [cite: 14]"
+          - "Thesis Subject: Designing and Simulation Single Photon Avalanche Devices"
 
     Experience:
       - company: Interuniversity Microelectronics Centre
-        [cite_start]position: Student Intern [cite: 22]
-        [cite_start]location: LEUVEN, Belgium [cite: 22]
-        [cite_start]start_date: July 2025 [cite: 17]
-        [cite_start]end_date: August 2025 [cite: 16]
-        [cite_start]summary: "Performed Design-Technology Co-Optimization (DTCO) by simulating 3D device structures in TCAD and generating electrical models for logic standard cells. [cite: 22]"
+        position: Student Intern
+        location: LEUVEN, Belgium
+        start_date: July 2025
+        end_date: August 2025
+        summary: "Performed Design-Technology Co-Optimization (DTCO) by simulating 3D device structures in TCAD and generating electrical models for logic standard cells."
         highlights:
-          - [cite_start]"Synopsys TCAD Python [cite: 23]"
+          - "Synopsys TCAD Python"
 
       - company: Tata Institute of Fundamental Research
-        [cite_start]position: Opto-Mechanical Instrument Engineer [cite: 24]
-        [cite_start]location: MUMBAI, India [cite: 24]
-        [cite_start]start_date: June 2022 [cite: 21]
-        [cite_start]end_date: July 2022 [cite: 20]
-        [cite_start]summary: "Designed an optical instrument using Solidworks CAD software. [cite: 24]"
+        position: Opto-Mechanical Instrument Engineer
+        location: MUMBAI, India
+        start_date: June 2022
+        end_date: July 2022
+        summary: "Designed an optical instrument using Solidworks CAD software."
         highlights:
-          - [cite_start]"Conducted finite element analysis (FEA) using Ansys to ensure structural and thermal integrity. [cite: 25]"
-          - [cite_start]"Achieved 16 micro-meter and 5 micro-radian precision by optimization. [cite: 26]"
+          - "Conducted finite element analysis (FEA) using Ansys to ensure structural and thermal integrity."
+          - "Achieved 16 micro-meter and 5 micro-radian precision by optimization."
 
       - company: Rancho Labs | I-Hub Foundation for Cobotics
-        [cite_start]position: Robotics Instructor [cite: 28]
-        [cite_start]location: DELHI, India [cite: 28]
-        [cite_start]start_date: June 2023 [cite: 19]
-        [cite_start]end_date: July 2023 [cite: 18]
-        [cite_start]summary: "Designed and instructed an introductory robotics course for school students. [cite: 28]"
+        position: Robotics Instructor
+        location: DELHI, India
+        start_date: June 2023
+        end_date: July 2023
+        summary: "Designed and instructed an introductory robotics course for school students."
 
     Volunteer:
       - company: Physics and Astronomy Club
-        [cite_start]position: Head PoC [cite: 86]
+        position: Head PoC
         location: IIT Delhi
         start_date: ""
         end_date: ""
-        [cite_start]summary: "Initiated the university's first student-led space exploration project. Organised multiple events and competitions nationwide. [cite: 87]"
+        summary: "Initiated the university's first student-led space exploration project. Organised multiple events and competitions nationwide."
       
       - company: Univ. Welfare Council
-        [cite_start]position: Hostel Representative [cite: 87]
+        position: Hostel Representative
         location: IIT Delhi
         start_date: ""
         end_date: ""
-        [cite_start]summary: "Elected from 600+ peers to manage welfare, administrative tasks and organise events. [cite: 88]"
+        summary: "Elected from 600+ peers to manage welfare, administrative tasks and organise events."
 
     Awards:
-      - [cite_start]title: Sakura Science Exchange [cite: 84]
+      - title: Sakura Science Exchange
         authors:
-          - [cite_start]"Japan Science and Technology Dept. [cite: 84]"
-        [cite_start]date: 2024 [cite: 84]
-        [cite_start]awarder: Japan Science and Technology Dept. [cite: 84]
-        [cite_start]summary: "Guided visits to top universities and R&D centers in Japan to foster international collaboration (SSC ID: 24300043). [cite: 84]"
+          - "Japan Science and Technology Dept."
+        date: 2024
+        awarder: Japan Science and Technology Dept.
+        summary: "Guided visits to top universities and R&D centers in Japan to foster international collaboration (SSC ID: 24300043)."
 
-      - [cite_start]title: All India Rank 1756 IIT JEE Advanced [cite: 84]
-        [cite_start]date: 2020 [cite: 84]
-        [cite_start]summary: "Secured rank 1756 among 1.5 million candidates in one of the world's most competitive engineering entrance exams. [cite: 84]"
+      - title: All India Rank 1756 IIT JEE Advanced
+        date: 2020
+        summary: "Secured rank 1756 among 1.5 million candidates in one of the world's most competitive engineering entrance exams."
 
-      - [cite_start]title: Top 1% in Indian National Physics Olympiad [cite: 84]
-        [cite_start]date: 2019 [cite: 84]
-        [cite_start]awarder: IAPT [cite: 84]
-        [cite_start]summary: "Organized by IAPT, to select students for the International Physics Olympiad (IPhO). [cite: 84]"
+      - title: Top 1% in Indian National Physics Olympiad
+        date: 2019
+        awarder: IAPT
+        summary: "Organized by IAPT, to select students for the International Physics Olympiad (IPhO)."
 
-      - [cite_start]title: Top 1% Twice in Indian National Astrophysics Olympiad [cite: 84]
-        [cite_start]date: 2018,2019 [cite: 84]
-        [cite_start]awarder: IAPT [cite: 84]
-        [cite_start]summary: "Organized by IAPT, to select students for the International Astronomy Olympiad (IAO), selected to compete internationally. [cite: 84]"
+      - title: Top 1% Twice in Indian National Astrophysics Olympiad
+        date: 2018,2019
+        awarder: IAPT
+        summary: "Organized by IAPT, to select students for the International Astronomy Olympiad (IAO), selected to compete internationally."
 
     Skills:
-      - [cite_start]name: Languages and Frameworks [cite: 75]
+      - name: Languages and Frameworks
         level: Master
         icon: fa-solid fa-code
-        [cite_start]keywords: "Python, Verilog (Basics), MATLAB, Simulink, Julia, C/C++, SimpleRISC [cite: 75]"
+        keywords: "Python, Verilog (Basics), MATLAB, Simulink, Julia, C/C++, SimpleRISC"
 
-      - [cite_start]name: Engineering Softwares [cite: 75]
+      - name: Engineering Softwares
         level: Master
         icon: fa-solid fa-desktop
-        [cite_start]keywords: "Solidworks, Ansys Mechanical, Altium PCB Designer, LTSpice, Origin, Arduino IDE [cite: 75]"
+        keywords: "Solidworks, Ansys Mechanical, Altium PCB Designer, LTSpice, Origin, Arduino IDE"
         
-      - [cite_start]name: Hardware [cite: 75]
+      - name: Hardware
         level: Master
         icon: fa-solid fa-microchip
-        [cite_start]keywords: "3D-Printing, PCBdebugging-, Soldering, Wiring, Microcontroller programming [cite: 75]"
+        keywords: "3D-Printing, PCBdebugging-, Soldering, Wiring, Microcontroller programming"
 
     Languages:
-      - [cite_start]name: English [cite: 75]
-        [cite_start]summary: "Fluent [cite: 75]"
+      - name: English
+        summary: "Fluent"
 
-      - [cite_start]name: Hindi [cite: 75]
-        [cite_start]summary: "native [cite: 75]"
+      - name: Hindi
+        summary: "native"
         
-      - [cite_start]name: Dutch [cite: 75]
-        [cite_start]summary: "Beginner [cite: 75]"
+      - name: Dutch
+        summary: "Beginner"
 
     Projects:
-      - [cite_start]name: ANALYTICAL MODELING FOR MOL PARASITICS OF ADVANCE DEVICES - MASTER THESIS | IMEC [cite: 31]
-        [cite_start]summary: "Using diverse mathematical methods to create models for CFETs, iteratively refining by comparison with simulation results. [cite: 33]"
+      - name: ANALYTICAL MODELING FOR MOL PARASITICS OF ADVANCE DEVICES - MASTER THESIS | IMEC
+        summary: "Using diverse mathematical methods to create models for CFETs, iteratively refining by comparison with simulation results."
         highlights:
-          - [cite_start]"Built a custom script to generate and simulate variable CFET dimensions, enabling parametric exploration of geometries. [cite: 34]"
-          - [cite_start]"Simulated 3D structures to extract SPICE models with parasitics, driving Power-Performance-Area (PPA) trade-offs. [cite: 35]"
-          - [cite_start]"Authored Python-based rendering and visualization scripts to accelerate the analysis of complex device architectures. [cite: 36]"
-        [cite_start]start_date: SEPTEMBER 2025 [cite: 32]
-        [cite_start]end_date: ONGOING [cite: 32]
+          - "Built a custom script to generate and simulate variable CFET dimensions, enabling parametric exploration of geometries."
+          - "Simulated 3D structures to extract SPICE models with parasitics, driving Power-Performance-Area (PPA) trade-offs."
+          - "Authored Python-based rendering and visualization scripts to accelerate the analysis of complex device architectures."
+        start_date: SEPTEMBER 2025
+        end_date: ONGOING
 
-      - name: SIMULATION AND OPTIMIZATION OF OPTICAL NEMS BASED XOR GATE - COURSE PROJECT | [cite_start]IMEC [cite: 38]
-        [cite_start]summary: "Replicated a published device structure to optimize eletrical and dimensional parameters via simulation and analytical analysis. [cite: 40]"
-        [cite_start]start_date: FEB 2025 [cite: 39]
-        [cite_start]end_date: JUNE 2025 [cite: 39]
+      - name: SIMULATION AND OPTIMIZATION OF OPTICAL NEMS BASED XOR GATE - COURSE PROJECT | IMEC
+        summary: "Replicated a published device structure to optimize eletrical and dimensional parameters via simulation and analytical analysis."
+        start_date: FEB 2025
+        end_date: JUNE 2025
 
-      - name: DESIGN OF A SIMPLE OPERATIONAL TELESCOPIC AMPLIFIER (OTA) - COURSE PROJECT | [cite_start]MICAS KU LEUVEN [cite: 41, 42]
-        [cite_start]summary: "Designed and later tested the fabricated chip for specific Gain and Bandwidth under power & area constraints. [cite: 42]"
-        [cite_start]start_date: SEP 2024 [cite: 42]
-        [cite_start]end_date: Nov 2024 [cite: 42]
+      - name: DESIGN OF A SIMPLE OPERATIONAL TELESCOPIC AMPLIFIER (OTA) - COURSE PROJECT | MICAS KU LEUVEN
+        summary: "Designed and later tested the fabricated chip for specific Gain and Bandwidth under power & area constraints."
+        start_date: SEP 2024
+        end_date: Nov 2024
 
-      - name: DESIGNING SINGLE PHOTON AVALANCHE DIODES (SPAD) - BACHELOR THESIS | DEPT. OF EE | [cite_start]IIT DELHI [cite: 44]
-        [cite_start]summary: "Model physical devices such as PN junction diodes, bipolar diodes and MOSFETs to understand physics and simulations. [cite: 46]"
+      - name: DESIGNING SINGLE PHOTON AVALANCHE DIODES (SPAD) - BACHELOR THESIS | DEPT. OF EE | IIT DELHI
+        summary: "Model physical devices such as PN junction diodes, bipolar diodes and MOSFETs to understand physics and simulations."
         highlights:
-          - [cite_start]"Conducted study of Planar and Epitaxial SPADs, scrutinizing breakdown voltage, structural modifications, and other performance parameters to increase Photon Detection Efficiency for 800nm wavelength infrared light to 30%.. [cite: 47]"
-        [cite_start]start_date: AUG 2023 [cite: 45]
-        [cite_start]end_date: MAY 2024 [cite: 45]
+          - "Conducted study of Planar and Epitaxial SPADs, scrutinizing breakdown voltage, structural modifications, and other performance parameters to increase Photon Detection Efficiency for 800nm wavelength infrared light to 30%."
+        start_date: AUG 2023
+        end_date: MAY 2024
 
     References:
-      - [cite_start]name: References [cite: 91]
-        [cite_start]reference: "Available upon Request. [cite: 92]"
+      - name: References
+        reference: "Available upon Request."

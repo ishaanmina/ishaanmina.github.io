@@ -1,221 +1,296 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ishaan JAIN [cite: 1]",
+    "label": "Nanodevices & Nanotechnology Engineer [cite: 2]",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "jain.ishaan@zohomail.eu [cite: 4]",
+    "phone": "+32 456735911 [cite: 4]",
+    "summary": "I've always been driven to solve complex problems through scientific methods-luckily, that led me to Engineering. [cite: 6] My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical and technical challenges inherent in practical device development. [cite: 7] I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively. [cite: 8]",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Leuven [cite: 4]",
+      "countryCode": "BE",
+      "region": ""
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ishaan-jain-7515761bb",
+        "url": "https://linkedin.com/in/ishaan-jain-7515761bb [cite: 3]"
+      },
+      {
+        "network": "GitHub",
+        "username": "ishaanmina",
+        "url": "https://ishaanmina.github.io [cite: 5]"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "Interuniversity Microelectronics Centre [cite: 22]",
+      "position": "Student Intern [cite: 22]",
+      "location": "LEUVEN, Belgium [cite: 22]",
+      "startDate": "2025-07-01 [cite: 17]",
+      "endDate": "2025-08-31 [cite: 16]",
+      "summary": "Performed Design-Technology Co-Optimization (DTCO) by simulating 3D device structures in TCAD and generating electrical models for logic standard cells. [cite: 22]",
+      "highlights": [
+        "Synopsys TCAD Python [cite: 23]"
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Tata Institute of Fundamental Research [cite: 24]",
+      "position": "Opto-Mechanical Instrument Engineer [cite: 24]",
+      "location": "MUMBAI, India [cite: 24]",
+      "startDate": "2022-06-01 [cite: 21]",
+      "endDate": "2022-07-31 [cite: 20]",
+      "summary": "Designed an optical instrument using Solidworks CAD software. [cite: 24]",
+      "highlights": [
+        "Conducted finite element analysis (FEA) using Ansys to ensure structural and thermal integrity. [cite: 25]",
+        "Achieved 16 micro-meter and 5 micro-radian precision by optimization. [cite: 26]"
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Rancho Labs | I-Hub Foundation for Cobotics [cite: 28]",
+      "position": "Robotics Instructor [cite: 28]",
+      "location": "DELHI, India [cite: 28]",
+      "startDate": "2023-06-01 [cite: 19]",
+      "endDate": "2023-07-31 [cite: 18]",
+      "summary": "Designed and instructed an introductory robotics course for school students. [cite: 28]",
+      "highlights": [
+        "Arduino IDE 3D printing PCB designing [cite: 29]"
+      ]
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "ELECTRICAL RACECAR - FORMULA STUDENT TEAM | IIT DELHI [cite: 66, 67]",
+      "position": "ENGINEER AT ACCUMULATOR DEPARTMENT [cite: 66]",
+      "location": "Delhi, India [cite: 67]",
+      "startDate": "2021-05-01 [cite: 67]",
+      "endDate": "2022-05-31 [cite: 67]",
+      "summary": "Designed and fabricated a 400V Lithium-Ion Pouch cell Battery module and Battery Management System for an 80kW powertrain. [cite: 67]",
+      "highlights": [
+        "Conducted detailed testing using coulomb counting to model performance using MATLAB. [cite: 68]",
+        "Designed, debugged, and implemented safety circuits using Altium PCB Designer. [cite: 69]",
+        "Engineered lightweight aluminium housings & charging cart using tubular CAD modelling. [cite: 70]",
+        "Achieved 2nd positions in Best Vehicle Design, Best Powertrain, and Best Battery Design at Formula Bharat, securing an overall 3rd position. [cite: 71]"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Physics and Astronomy Club [cite: 86]",
+      "location": "IIT Delhi",
+      "position": "Head PoC [cite: 86]",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Initiated the university's first student-led space exploration project. Organised multiple events and competitions nationwide. [cite: 87]",
+      "highlights": []
+    },
+    {
+      "organization": "Univ. Welfare Council [cite: 87]",
+      "location": "IIT Delhi",
+      "position": "Hostel Representative [cite: 87]",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Elected from 600+ peers to manage welfare, administrative tasks and organise events. [cite: 88]",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "KU Leuven [cite: 10]",
+      "location": "Leuven, Belgium [cite: 10]",
+      "url": "",
+      "area": "Nanoscience, Nanotechnology and Nanoengineering with specialization in Nanodevices [cite: 10]",
+      "studyType": "Master [cite: 10]",
+      "startDate": "2024-09-01 [cite: 10]",
+      "endDate": "2026-06-30 [cite: 10]",
+      "score": "GPA: Cum Laude [cite: 11]",
+      "courses": [],
+      "highlights": [
+        "Thesis Subject: Modeling MOL parasitics for Advance Technology CFETs at IMEC [cite: 11]"
+      ]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
+      "institution": "Indian Institute of Technology Delhi [cite: 13]",
+      "location": "India [cite: 13]",
+      "url": "",
+      "area": "Engineering Physics with focus on Eletrical Engineering [cite: 12]",
+      "studyType": "Bachelor of Technology [cite: 12]",
+      "startDate": "2020-08-01 [cite: 12]",
+      "endDate": "2024-05-31 [cite: 12]",
+      "score": "GPA: First Class [cite: 14]",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "Thesis Subject: Designing and Simulation Single Photon Avalanche Devices [cite: 14]"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Sakura Science Exchange [cite: 84]",
+      "date": "2024-01-01 [cite: 84]",
+      "awarder": "Japan Science and Technology Dept. [cite: 84]",
+      "url": "",
+      "summary": "Guided visits to top universities and R&D centers in Japan to foster international collaboration (SSC ID: 24300043). [cite: 84]"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "All India Rank 1756 IIT JEE Advanced [cite: 84]",
+      "date": "2020-01-01 [cite: 84]",
+      "awarder": "",
+      "url": "",
+      "summary": "Secured rank 1756 among 1.5 million candidates in one of the world's most competitive engineering entrance exams. [cite: 84]"
+    },
+    {
+      "title": "Top 1% in Indian National Physics Olympiad [cite: 84]",
+      "date": "2019-01-01 [cite: 84]",
+      "awarder": "IAPT [cite: 84]",
+      "url": "",
+      "summary": "Organized by IAPT, to select students for the International Physics Olympiad (IPhO). [cite: 84]"
+    },
+    {
+      "title": "Top 1% Twice in Indian National Astrophysics Olympiad [cite: 84]",
+      "date": "2019-01-01 [cite: 84]",
+      "awarder": "IAPT [cite: 84]",
+      "url": "",
+      "summary": "Organized by IAPT, to select students for the International Astronomy Olympiad (IAO), selected to compete internationally. (2018, 2019) [cite: 84]"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Languages and Frameworks [cite: 75]",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python [cite: 75]",
+        "Verilog (Basics) [cite: 75]",
+        "MATLAB [cite: 75]",
+        "Simulink [cite: 75]",
+        "Julia [cite: 75]",
+        "C/C++ [cite: 75]",
+        "SimpleRISC [cite: 75]"
+      ]
+    },
+    {
+      "name": "Engineering Softwares [cite: 75]",
+      "level": "Master",
+      "icon": "fa-solid fa-desktop",
+      "keywords": [
+        "Solidworks [cite: 75]",
+        "Ansys Mechanical [cite: 75]",
+        "Altium PCB Designer [cite: 75]",
+        "LTSpice [cite: 75]",
+        "Origin [cite: 75]",
+        "Arduino IDE [cite: 75]"
+      ]
+    },
+    {
+      "name": "Hardware [cite: 75]",
+      "level": "Master",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "3D-Printing [cite: 75]",
+        "PCBdebugging- [cite: 75]",
+        "Soldering [cite: 75]",
+        "Wiring [cite: 75]",
+        "Microcontroller programming [cite: 75]"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English [cite: 75]",
+      "fluency": "Fluent [cite: 75]",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Hindi [cite: 75]",
+      "fluency": "Native [cite: 75]",
+      "icon": ""
+    },
+    {
+      "language": "Dutch [cite: 75]",
+      "fluency": "Beginner [cite: 75]",
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "References [cite: 91]",
+      "icon": "fa-solid fa-address-book",
+      "reference": "Available upon Request. [cite: 92]"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "ANALYTICAL MODELING FOR MOL PARASITICS OF ADVANCE DEVICES - MASTER THESIS | IMEC [cite: 31]",
+      "summary": "Using diverse mathematical methods to create models for CFETs, iteratively refining by comparison with simulation results. [cite: 33]",
+      "highlights": [
+        "Built a custom script to generate and simulate variable CFET dimensions, enabling parametric exploration of geometries. [cite: 34]",
+        "Simulated 3D structures to extract SPICE models with parasitics, driving Power-Performance-Area (PPA) trade-offs. [cite: 35]",
+        "Authored Python-based rendering and visualization scripts to accelerate the analysis of complex device architectures. [cite: 36]"
+      ],
+      "startDate": "2025-09-01 [cite: 32]",
+      "endDate": "Ongoing [cite: 32]"
+    },
+    {
+      "name": "SIMULATION AND OPTIMIZATION OF OPTICAL NEMS BASED XOR GATE - COURSE PROJECT | IMEC [cite: 38]",
+      "summary": "Replicated a published device structure to optimize eletrical and dimensional parameters via simulation and analytical analysis. [cite: 40]",
+      "highlights": [
+        "COMSOL MultiPhysics MATLAB [cite: 40]"
+      ],
+      "startDate": "2025-02-01 [cite: 39]",
+      "endDate": "2025-06-30 [cite: 39]"
+    },
+    {
+      "name": "DESIGN OF A SIMPLE OPERATIONAL TELESCOPIC AMPLIFIER (OTA) - COURSE PROJECT | MICAS KU LEUVEN [cite: 41, 42]",
+      "summary": "Designed and later tested the fabricated chip for specific Gain and Bandwidth under power & area constraints. [cite: 42]",
+      "highlights": [
+        "Cadence Virtuoso [cite: 43]"
+      ],
+      "startDate": "2024-09-01 [cite: 42]",
+      "endDate": "2024-11-30 [cite: 42]"
+    },
+    {
+      "name": "DESIGNING SINGLE PHOTON AVALANCHE DIODES (SPAD) - BACHELOR THESIS | DEPT. OF EE | IIT DELHI [cite: 44]",
+      "summary": "Model physical devices such as PN junction diodes, bipolar diodes and MOSFETs to understand physics and simulations. [cite: 46]",
+      "highlights": [
+        "Conducted study of Planar and Epitaxial SPADs, scrutinizing breakdown voltage, structural modifications, and other performance parameters to increase Photon Detection Efficiency for 800nm wavelength infrared light to 30%.. [cite: 47]",
+        "Silvaco TCAD LTEX [cite: 48]"
+      ],
+      "startDate": "2023-08-01 [cite: 45]",
+      "endDate": "2024-05-31 [cite: 45]"
+    },
+    {
+      "name": "DESIGN AND FABRICATING EQUIPMENT FOR TOTAL SOLAR ECLIPSE CHASE 2023 | QGAL GROUP | IIT DELHI [cite: 49, 50]",
+      "summary": "Captured low-intensity images using custom 3D-printed filters for changes in solar spots. [cite: 50]",
+      "highlights": [
+        "Designed and manufactured mounts for telescopes, power banks, and camera equipment. [cite: 51]",
+        "Applied photometry techniques on-site for data collection during the Total Solar Eclipse in Exmouth, Australia [cite: 52]"
+      ],
+      "startDate": "2022-09-01 [cite: 50]",
+      "endDate": "2023-06-30 [cite: 50]"
+    },
+    {
+      "name": "8-BIT VECTOR MULTIPLICATION MICROPROCESSING CHIP DESIGN - COURSE PROJECT DEPT. OF EE IIT DELHI [cite: 57, 58]",
+      "summary": "Designed behavioural code in Verilog for an 8-bit vector multiplication microprocessor unit. [cite: 58]",
+      "highlights": [
+        "Conducted RTL compilation using Cadence genus and layout generation using Innovus to perform static timing analysis and design rule checks on the layout. [cite: 59]"
+      ],
+      "startDate": "2023-08-01 [cite: 58]",
+      "endDate": "2023-11-30 [cite: 58]"
+    },
+    {
+      "name": "THEORETICAL COMPUTATION AND SCIENTIFIC DATA ANALYSIS | DEPT. OF PHYSICS | IIT DELHI [cite: 61]",
+      "summary": "Utilized Julia language for data analysis and accurate numerical solutions. [cite: 62]",
+      "highlights": [
+        "Using the Crank-Nicolson method for the time-dependent Schrödinger equation and Lagrangian. [cite: 63]"
+      ],
+      "startDate": "2023-04-01 [cite: 65]",
+      "endDate": "2023-04-30 [cite: 65]"
     }
   ]
 }
