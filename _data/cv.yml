@@ -1,189 +1,165 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  [cite_start]name: Ishaan JAIN [cite: 1]
+  [cite_start]label: Nanodevices & Nanotechnology Engineer [cite: 2]
+  [cite_start]email: jain.ishaan@zohomail.eu [cite: 4]
+  [cite_start]location: Leuven, Belgium [cite: 4]
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  [cite_start]summary: "I've always been driven to solve complex problems through scientific methods-luckily, that led me to Engineering. [cite: 6] My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical and technical challenges inherent in practical device development. [cite: 7] I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively. [cite: 8]"
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      [cite_start]username: ishaan-jain-7515761bb [cite: 3]
+    - network: GitHub
+      [cite_start]username: Ishaanmina [cite: 5]
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: ""
+    [cite_start]city: Leuven [cite: 4]
+    region: ""
+    postalCode: ""
+    countryCode: BE
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: KU Leuven
+        [cite_start]location: Leuven, Belgium [cite: 4, 10]
+        url: ""
+        [cite_start]area: Nanoscience, Nanotechnology and Nanoengineering with specialization in Nanodevices [cite: 10]
+        [cite_start]studyType: Master [cite: 10]
+        [cite_start]start_date: 2024 [cite: 10]
+        [cite_start]end_date: 2026(exp.) [cite: 10]
+        [cite_start]score: "GPA: Cum Laude [cite: 11]"
+        courses: ""
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Thesis Subject: Modeling MOL parasitics for Advance Technology CFETs at IMEC [cite: 11]"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Indian Institute of Technology Delhi
+        [cite_start]location: Delhi, India [cite: 13]
+        [cite_start]area: Engineering Physics with focus on Eletrical Engineering [cite: 12]
+        [cite_start]studyType: Bachelor of Technology [cite: 12]
+        [cite_start]start_date: 2020 [cite: 12]
+        [cite_start]end_date: 2024 [cite: 12]
+        [cite_start]score: "GPA: First Class [cite: 14]"
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Thesis Subject: Designing and Simulation Single Photon Avalanche Devices [cite: 14]"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Interuniversity Microelectronics Centre
+        [cite_start]position: Student Intern [cite: 22]
+        [cite_start]location: LEUVEN, Belgium [cite: 22]
+        [cite_start]start_date: July 2025 [cite: 17]
+        [cite_start]end_date: August 2025 [cite: 16]
+        [cite_start]summary: "Performed Design-Technology Co-Optimization (DTCO) by simulating 3D device structures in TCAD and generating electrical models for logic standard cells. [cite: 22]"
         highlights:
-          - Relativity
-          - Description 2.
+          - [cite_start]"Synopsys TCAD Python [cite: 23]"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Tata Institute of Fundamental Research
+        [cite_start]position: Opto-Mechanical Instrument Engineer [cite: 24]
+        [cite_start]location: MUMBAI, India [cite: 24]
+        [cite_start]start_date: June 2022 [cite: 21]
+        [cite_start]end_date: July 2022 [cite: 20]
+        [cite_start]summary: "Designed an optical instrument using Solidworks CAD software. [cite: 24]"
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Conducted finite element analysis (FEA) using Ansys to ensure structural and thermal integrity. [cite: 25]"
+          - [cite_start]"Achieved 16 micro-meter and 5 micro-radian precision by optimization. [cite: 26]"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Rancho Labs | I-Hub Foundation for Cobotics
+        [cite_start]position: Robotics Instructor [cite: 28]
+        [cite_start]location: DELHI, India [cite: 28]
+        [cite_start]start_date: June 2023 [cite: 19]
+        [cite_start]end_date: July 2023 [cite: 18]
+        [cite_start]summary: "Designed and instructed an introductory robotics course for school students. [cite: 28]"
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: Physics and Astronomy Club
+        [cite_start]position: Head PoC [cite: 86]
+        location: IIT Delhi
+        start_date: ""
+        end_date: ""
+        [cite_start]summary: "Initiated the university's first student-led space exploration project. Organised multiple events and competitions nationwide. [cite: 87]"
+      
+      - company: Univ. Welfare Council
+        [cite_start]position: Hostel Representative [cite: 87]
+        location: IIT Delhi
+        start_date: ""
+        end_date: ""
+        [cite_start]summary: "Elected from 600+ peers to manage welfare, administrative tasks and organise events. [cite: 88]"
 
     Awards:
-      - title: Nobel Prize in Physics
+      - [cite_start]title: Sakura Science Exchange [cite: 84]
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - [cite_start]"Japan Science and Technology Dept. [cite: 84]"
+        [cite_start]date: 2024 [cite: 84]
+        [cite_start]awarder: Japan Science and Technology Dept. [cite: 84]
+        [cite_start]summary: "Guided visits to top universities and R&D centers in Japan to foster international collaboration (SSC ID: 24300043). [cite: 84]"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - [cite_start]title: All India Rank 1756 IIT JEE Advanced [cite: 84]
+        [cite_start]date: 2020 [cite: 84]
+        [cite_start]summary: "Secured rank 1756 among 1.5 million candidates in one of the world's most competitive engineering entrance exams. [cite: 84]"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - [cite_start]title: Top 1% in Indian National Physics Olympiad [cite: 84]
+        [cite_start]date: 2019 [cite: 84]
+        [cite_start]awarder: IAPT [cite: 84]
+        [cite_start]summary: "Organized by IAPT, to select students for the International Physics Olympiad (IPhO). [cite: 84]"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - [cite_start]title: Top 1% Twice in Indian National Astrophysics Olympiad [cite: 84]
+        [cite_start]date: 2018,2019 [cite: 84]
+        [cite_start]awarder: IAPT [cite: 84]
+        [cite_start]summary: "Organized by IAPT, to select students for the International Astronomy Olympiad (IAO), selected to compete internationally. [cite: 84]"
 
     Skills:
-      - name: Physics
+      - [cite_start]name: Languages and Frameworks [cite: 75]
         level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        icon: fa-solid fa-code
+        [cite_start]keywords: "Python, Verilog (Basics), MATLAB, Simulink, Julia, C/C++, SimpleRISC [cite: 75]"
+
+      - [cite_start]name: Engineering Softwares [cite: 75]
+        level: Master
+        icon: fa-solid fa-desktop
+        [cite_start]keywords: "Solidworks, Ansys Mechanical, Altium PCB Designer, LTSpice, Origin, Arduino IDE [cite: 75]"
+        
+      - [cite_start]name: Hardware [cite: 75]
+        level: Master
+        icon: fa-solid fa-microchip
+        [cite_start]keywords: "3D-Printing, PCBdebugging-, Soldering, Wiring, Microcontroller programming [cite: 75]"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - [cite_start]name: English [cite: 75]
+        [cite_start]summary: "Fluent [cite: 75]"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - [cite_start]name: Hindi [cite: 75]
+        [cite_start]summary: "native [cite: 75]"
+        
+      - [cite_start]name: Dutch [cite: 75]
+        [cite_start]summary: "Beginner [cite: 75]"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - [cite_start]name: ANALYTICAL MODELING FOR MOL PARASITICS OF ADVANCE DEVICES - MASTER THESIS | IMEC [cite: 31]
+        [cite_start]summary: "Using diverse mathematical methods to create models for CFETs, iteratively refining by comparison with simulation results. [cite: 33]"
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - [cite_start]"Built a custom script to generate and simulate variable CFET dimensions, enabling parametric exploration of geometries. [cite: 34]"
+          - [cite_start]"Simulated 3D structures to extract SPICE models with parasitics, driving Power-Performance-Area (PPA) trade-offs. [cite: 35]"
+          - [cite_start]"Authored Python-based rendering and visualization scripts to accelerate the analysis of complex device architectures. [cite: 36]"
+        [cite_start]start_date: SEPTEMBER 2025 [cite: 32]
+        [cite_start]end_date: ONGOING [cite: 32]
+
+      - name: SIMULATION AND OPTIMIZATION OF OPTICAL NEMS BASED XOR GATE - COURSE PROJECT | [cite_start]IMEC [cite: 38]
+        [cite_start]summary: "Replicated a published device structure to optimize eletrical and dimensional parameters via simulation and analytical analysis. [cite: 40]"
+        [cite_start]start_date: FEB 2025 [cite: 39]
+        [cite_start]end_date: JUNE 2025 [cite: 39]
+
+      - name: DESIGN OF A SIMPLE OPERATIONAL TELESCOPIC AMPLIFIER (OTA) - COURSE PROJECT | [cite_start]MICAS KU LEUVEN [cite: 41, 42]
+        [cite_start]summary: "Designed and later tested the fabricated chip for specific Gain and Bandwidth under power & area constraints. [cite: 42]"
+        [cite_start]start_date: SEP 2024 [cite: 42]
+        [cite_start]end_date: Nov 2024 [cite: 42]
+
+      - name: DESIGNING SINGLE PHOTON AVALANCHE DIODES (SPAD) - BACHELOR THESIS | DEPT. OF EE | [cite_start]IIT DELHI [cite: 44]
+        [cite_start]summary: "Model physical devices such as PN junction diodes, bipolar diodes and MOSFETs to understand physics and simulations. [cite: 46]"
+        highlights:
+          - [cite_start]"Conducted study of Planar and Epitaxial SPADs, scrutinizing breakdown voltage, structural modifications, and other performance parameters to increase Photon Detection Efficiency for 800nm wavelength infrared light to 30%.. [cite: 47]"
+        [cite_start]start_date: AUG 2023 [cite: 45]
+        [cite_start]end_date: MAY 2024 [cite: 45]
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - [cite_start]name: References [cite: 91]
+        [cite_start]reference: "Available upon Request. [cite: 92]"

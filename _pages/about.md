@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’ve always been driven to solve complex problems through scientific methods—luckily, that led me to Engineering. 
+I’ve always been driven to solve complex problems through scientific methods—luckily, that led me to Engineering.
 My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical
 and technical challenges inherent in practical device development.
 I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively.
