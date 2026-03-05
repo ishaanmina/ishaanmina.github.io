@@ -159,6 +159,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=qLbkHtF8AAAAJ", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ishaan-jain-7515761bb", "_blank");
+        },
+      },{
         id: 'social-whatsapp',
         title: 'whatsapp',
         section: 'Socials',
