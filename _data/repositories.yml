@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ishaanmina
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ishaanmina/QIC
+  - ishaanmina/ishaanmina.github.io
+  - ishaanmina/numerical_methods_2023
+  - ishaanmina/Summer-of-ML-2021
+  - ishaanmina/Gyandadhabha-Class-10-Project.io
