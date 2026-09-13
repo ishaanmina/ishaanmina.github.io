@@ -2,14 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
+description: Courses I have designed and taught — robotics, electronics and quantum computing.
+nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+Most of what I know, I learned by building something and having it not work. The courses below are built
+the same way around: every concept ends in something the student physically assembles, powers on, and
+debugs.
 
 {% include courses.liquid %}

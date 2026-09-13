@@ -1,10 +1,10 @@
 cv:
-  name: Ishaan JAIN
-  label: Nanodevices & Nanotechnology Engineer
+  name: Ishaan Jain
+  label: Nanodevices and Semiconductor Engineer
   email: jain.ishaan@zohomail.eu
   location: Leuven, Belgium
   image: ""
-  summary: "I've always been driven to solve complex problems through scientific methods-luckily, that led me to Engineering. My expertise lies in building nanodevices from the ground up, where I apply a curious, first-principles approach to solve the complex physical and technical challenges inherent in practical device development. I thrive on the challenge of translating lab innovations into impactful technologies, dedicated to ensuring that advanced research moves from the cleanroom to the people effectively."
+  summary: "Semiconductor device engineer with a physics foundation and hands-on electronics and mechanical experience. MSc in Nanoscience, Nanotechnology and Nanoengineering from KU Leuven, with a thesis at imec on modelling middle-of-line parasitics for advanced CFETs. I work from first principles, build the tooling I need when it does not exist, and care about the gap between a result in the cleanroom and a product in someone's hands. Available immediately."
 
   social_networks:
     - network: LinkedIn
@@ -13,153 +13,193 @@ cv:
       username: ishaanmina
 
   address:
-    street: ""
     city: Leuven
-    region: ""
-    postalCode: ""
+    region: Belgium
     countryCode: BE
 
   sections:
     Education:
       - institution: KU Leuven
         location: Leuven, Belgium
-        url: ""
-        area: Nanoscience, Nanotechnology and Nanoengineering with specialization in Nanodevices
-        studyType: Master
-        start_date: 2024
-        end_date: 2026(exp.)
-        score: "GPA: Cum Laude"
-        courses: ""
+        url: https://www.kuleuven.be/programmes/master-nanoscience-nanotechnology-nanoengineering
+        area: Nanoscience, Nanotechnology and Nanoengineering — specialisation in Nanodevices and Circuits
+        studyType: MSc
+        start_date: Sep 2024
+        end_date: Aug 2026
         highlights:
-          - "Thesis Subject: Modeling MOL parasitics for Advance Technology CFETs at IMEC"
+          - "Graduated Cum Laude"
+          - "Thesis at imec: Design-Technology Co-Optimization (DTCO) by modelling middle-of-line (MOL) parasitics for advanced CFETs"
+          - "Coursework: Design and Implementation of Analogue Circuits, Semiconductor Devices, Technology of Integrated Systems, Reliability and Yield, Physical Material Characterization, MEMS and Microsystems"
 
       - institution: Indian Institute of Technology Delhi
-        location: Delhi, India
-        area: Engineering Physics with focus on Eletrical Engineering
-        studyType: Bachelor of Technology
-        start_date: 2020
-        end_date: 2024
-        score: "GPA: First Class"
+        location: New Delhi, India
+        area: Engineering Physics, with a focus on Electrical Engineering
+        studyType: BTech
+        start_date: Nov 2020
+        end_date: May 2024
         highlights:
-          - "Thesis Subject: Designing and Simulation Single Photon Avalanche Devices"
+          - "First Class, 73%"
+          - "Thesis: Design and Simulation of Single Photon Avalanche Diodes (SPADs)"
+          - "Coursework: Computer Architecture, Introduction to VLSI, Physical Electronics, Signals and Systems, Digital Electronics, Design of Digital Integrated Circuits, Analog and Mixed-Signal Electronics, Solid State Physics, Quantum Mechanics, Electrodynamics, Statistical Physics"
 
     Experience:
-      - company: Interuniversity Microelectronics Centre
-        position: Student Intern
-        location: LEUVEN, Belgium
-        start_date: July 2025
-        end_date: August 2025
-        summary: "Performed Design-Technology Co-Optimization (DTCO) by simulating 3D device structures in TCAD and generating electrical models for logic standard cells."
+      - company: imec — Interuniversity Microelectronics Centre
+        position: Student Intern (DTCO), continuing as Master's Thesis Researcher
+        location: Leuven, Belgium
+        start_date: Jul 2025
+        end_date: Aug 2026
+        summary: "Design-Technology Co-Optimization for advanced CFET logic — 3D TCAD simulation, parasitic extraction, and compact modelling. Device performance and PPA outcomes are under NDA; the tooling and methodology below are not."
         highlights:
-          - "Synopsys TCAD Python"
+          - "Simulated 3D device structures in Synopsys TCAD and generated electrical models for logic standard cells."
+          - "Fully parametrised the CFET structure across 43 geometric and design parameters, and built a custom script to sweep 15+ core parameters including multi-parameter combined sweeps."
+          - "Wrote Python automation that computes parasitic capacitance directly from device dimensions, ingesting Synopsys sVisual TCAD logs or a user-defined device with nominated capacitance surfaces, and emits a SPICE netlist."
+          - "Applied the Kron reduction network method to collapse the parasitic network to input/output/node capacitances, holding individual capacitances to under 10% error."
+          - "Developed an analytical compact model of CFET parasitic capacitances producing a PDK-ready SPICE netlist."
+          - "Built an in-house TCAD log-file viewer and renderer in Python to replace the CPU/GPU-heavy native viewer — added slicing, per-layer hide/show, opacity control and surface highlighting, and rendered substantially faster."
 
-      - company: Tata Institute of Fundamental Research
-        position: Opto-Mechanical Instrument Engineer
-        location: MUMBAI, India
-        start_date: June 2022
-        end_date: July 2022
-        summary: "Designed an optical instrument using Solidworks CAD software."
+      - company: Tata Institute of Fundamental Research (TIFR)
+        position: Intern, Opto-Mechanical Instrument Engineer
+        location: Mumbai, India
+        start_date: Jun 2023
+        end_date: Jul 2023
+        summary: "Mechanical design of the pick-up arm for TA-MOONS, a multi-object spectrometer for the 3.6 m Devasthal Optical Telescope. Contributing author on the resulting SPIE 2024 paper."
         highlights:
-          - "Conducted finite element analysis (FEA) using Ansys to ensure structural and thermal integrity."
-          - "Achieved 16 micro-meter and 5 micro-radian precision by optimization."
+          - "Designed the robotic pick-up arm in SolidWorks; ran FEA in Ansys Mechanical for structural and thermal integrity."
+          - "Achieved 16 µm and 5 µrad precision through design optimisation, addressing vibration and manufacturing-tolerance error sources."
+          - "Used Zemax to verify optical focus and movement, and MATLAB/Simulink for the control algorithm selecting which of 8 arms picks a 13 mm² area from a 10 m aperture field."
 
-      - company: Rancho Labs | I-Hub Foundation for Cobotics
-        position: Robotics Instructor
-        location: DELHI, India
-        start_date: June 2023
-        end_date: July 2023
-        summary: "Designed and instructed an introductory robotics course for school students."
+      - company: Rancho Labs
+        position: Intern, Robotics Curriculum Designer and Instructor
+        location: New Delhi, India
+        start_date: Jun 2022
+        end_date: Jul 2022
+        summary: "Designed and taught an introductory robotics course from scratch to ~50 secondary and senior-secondary students."
+        highlights:
+          - "Covered electronics, mechanical systems and Arduino programming in C++, including digital and analogue peripherals."
+          - "Built and taught through three projects: a piezoelectric speaker, an RF-controlled prosthetic arm (flex sensors, 433 MHz link, servos on a 3D-printed arm), and an autonomous trash collector with HC-05 Bluetooth/UART status reporting."
 
-    Volunteer:
-      - company: Physics and Astronomy Club
-        position: Head PoC
-        location: IIT Delhi
-        start_date: ""
-        end_date: ""
-        summary: "Initiated the university's first student-led space exploration project. Organised multiple events and competitions nationwide."
-      
-      - company: Univ. Welfare Council
-        position: Hostel Representative
-        location: IIT Delhi
-        start_date: ""
-        end_date: ""
-        summary: "Elected from 600+ peers to manage welfare, administrative tasks and organise events."
+    Projects:
+      - name: Optical NEMS-Based XOR Gate — imec course project (Feb – Jun 2025)
+        url: /projects/optical-nems-xor-gate/
+        summary: "Replicated a published NEMS structure and optimised it in COMSOL and MATLAB: 1550 nm operation, 0.8 µm plate displacement at 10 V controlling optical transmission."
 
-    Awards:
-      - title: Sakura Science Exchange
-        authors:
-          - "Japan Science and Technology Dept."
+      - name: Operational Telescopic Amplifier — MICAS, KU Leuven (Sep – Nov 2024)
+        url: /projects/ota-analog-chip/
+        summary: "Designed, taped out and measured a 180 nm OTA in Cadence Virtuoso/ADE: 87.65 dB gain, 1.23 MHz GBW, 1 mW at 1.8 V, 10 transistors. Silicon matched simulation within 1%."
+
+      - name: Single Photon Avalanche Diodes — Bachelor Thesis, IIT Delhi (Aug 2023 – May 2024)
+        url: /projects/spad-design-simulation/
+        summary: "Silvaco Atlas TCAD design of silicon SPADs for NIR camera sensors, comparing planar and epitaxial structures. Reached 30% PDE at 800 nm (industry baseline ~50%) with −18.1 V breakdown."
+
+      - name: 8-bit Vector Multiplication Microprocessor — Intro to VLSI, IIT Delhi (Aug – Nov 2023)
+        url: /projects/vlsi-vector-multiplier/
+        summary: "Behavioural Verilog through Cadence Genus synthesis and Innovus place-and-route, with static timing analysis and DRC."
+
+      - name: Student-Led Rocketry Project — Physics and Astronomy Society, IIT Delhi (2023)
+        url: /projects/rocketry-space-project/
+        summary: "Laid the foundation for IIT Delhi's first student-led space project, instructing juniors on strain gauge instrumentation, static test bench design, KNO₃/sugar solid propellant characterisation, airframe alignment, and mass budgeting from 100 ft to 1000 ft targets."
+
+      - name: Solar Corona Imaging — Total Solar Eclipse, Exmouth, Australia (Dec 2022 – Apr 2023)
+        url: /projects/solar-eclipse-corona-2023/
+        summary: "Equipment lead on a university-sponsored expedition. Designed and manufactured telescope mounts, dew-heater power banks and camera filters; captured 30 fps imagery across 4 telescopes with different capture algorithms through the ~2-minute totality."
+
+      - name: 3D-Printed Quadcopter (Dec 2022)
+        url: /projects/quadcopter-drone/
+        summary: "211 g self-built drone with 200 g payload and ~30 min flight time — ESP32, 4× BLDC motors, 3D-printed frame, and a PID controller achieving stable flight."
+
+      - name: Galaxy Rotation Curves with a Low-Cost 21 cm Radio Telescope (Sep – Dec 2022)
+        url: /projects/radio-telescope-21cm/
+        summary: "Built a custom horn antenna to detect the 1420.4 MHz hydrogen line; detected the signal centred on the Milky Way galactic plane, with precision constrained by receiver noise floor and aperture size."
+
+      - name: XLR-20 Electric Racecar — Formula Student, AXLR8R Club, IIT Delhi (May 2021 – Jun 2022)
+        url: /projects/formula-student-xlr20/
+        summary: "Co-led the ~INR 10 million XLR-20 project in the Accumulator Department and mentored 50+ juniors. 3rd overall at Formula Bharat 2022; 2nd in Best Vehicle Design and Best Powertrain; design won a Tesla-sponsored competition."
+        highlights:
+          - "Designed and helped manufacture a 400 V lithium-ion pouch cell battery module with a passive BMS; cells vendor-selected and specified."
+          - "Designed 2 PCBs — a per-cell sensing board replicated 8× to monitor all 192 cells, and a data-aggregation board feeding the vehicle control unit. Tested and debugged 20+ PCBs."
+          - "Designed safety circuits in Altium, simulated in LTSpice; owned fuse specification from HPC fuses down to 0603 SMD; 50+ hours of cell capacity testing plotted in MATLAB."
+          - "Designed a charging cart with tubular CAD and DFM principles; performed manufacturing-cost analysis for the Cost event."
+
+      - name: RuTAG Smart Vending Cart — Rural Technology Development (Jul – Aug 2021)
+        url: /projects/rutag-vending-cart/
+        summary: "30+ on-ground vendor surveys translated into a modular cart-attachment specification; SolidWorks CAD for centre-of-mass and stability simulation; estimated 40–60% lower cost than commercial equivalents. Design phase complete."
+
+      - name: Quantum Error Mitigation — IBM Qiskit Global Summer School (Mar 2021)
+        url: /projects/qiskit-quantum-ml/
+        summary: "Completed IBM's certified programme on quantum computing and QML; built an error-mitigation solution cutting computational error from ~70% to under 10% on an arithmetic verification task. Later taught a 4-week Qiskit workshop series to ~15 bachelor students (2023)."
+
+    Honors and Awards:
+      - title: Sakura Science Exchange Program
         date: 2024
-        awarder: Japan Science and Technology Dept.
-        summary: "Guided visits to top universities and R&D centers in Japan to foster international collaboration (SSC ID: 24300043)."
+        awarder: Japan Science and Technology Agency
+        summary: "Sponsored visits to top Japanese universities and R&D centres to foster international collaboration."
 
-      - title: All India Rank 1756 IIT JEE Advanced
+      - title: IIT JEE Advanced — All India Rank 1756
         date: 2020
-        summary: "Secured rank 1756 among 1.5 million candidates in one of the world's most competitive engineering entrance exams."
+        summary: "Among approximately 1.5 million candidates nationally. JEE Mains AIR 2236 (99.96 percentile); UPSEE AIR 40."
 
-      - title: Top 1% in Indian National Physics Olympiad
+      - title: KVPY Fellowship
+        date: 2019
+        awarder: Department of Science and Technology, Government of India
+        summary: "National fellowship for students in basic sciences."
+
+      - title: Top 1%, Indian National Physics Olympiad
         date: 2019
         awarder: IAPT
-        summary: "Organized by IAPT, to select students for the International Physics Olympiad (IPhO)."
+        summary: "Selected in the national stage toward the International Physics Olympiad."
 
-      - title: Top 1% Twice in Indian National Astrophysics Olympiad
-        date: 2018,2019
+      - title: Top 1%, Indian National Astronomy Olympiad
+        date: 2018 and 2019
         awarder: IAPT
-        summary: "Organized by IAPT, to select students for the International Astronomy Olympiad (IAO), selected to compete internationally."
+        summary: "Selected twice in the national stage toward the International Astronomy Olympiad."
+
+    Extracurricular Activities:
+      - bullet: "**Head, Physics and Astronomy Society, IIT Delhi** (member since 2020, head from 2023) — organised observation sessions and outreach events; represented the society at platforms across India and abroad; laid the foundation for the university's first student-led rocketry project; ran a 4-week Qiskit quantum computing workshop series."
+      - bullet: "**Hostel Representative, Board for Student Welfare, IIT Delhi** (Apr 2021 – May 2022) — elected unanimously among 600 students; managed welfare activities, administration, content creation and hostel activity budgeting; organised fests; mentored incoming first-years."
+      - bullet: "**IEEE Student Member** — current professional affiliation."
+      - bullet: "**Debating Society and Dramatics Club, IIT Delhi** — performed in winning dramatics entries and contributed to writing; won the Drama trophy."
+      - bullet: "**Social work** — taught underprivileged children during undergraduate studies."
 
     Skills:
-      - name: Languages and Frameworks
-        level: Master
+      - name: Programming
+        level: ""
         icon: fa-solid fa-code
-        keywords: "Python, Verilog (Basics), MATLAB, Simulink, Julia, C/C++, SimpleRISC"
+        keywords: "Python, C/C++, MATLAB, Simulink, Julia, Verilog, SimpleRISC, RISC-V, LaTeX, HTML, CSS, Selenium, Linux (Ubuntu), Git"
 
-      - name: Engineering Softwares
-        level: Master
-        icon: fa-solid fa-desktop
-        keywords: "Solidworks, Ansys Mechanical, Altium PCB Designer, LTSpice, Origin, Arduino IDE"
-        
-      - name: Hardware
-        level: Master
+      - name: EDA and Semiconductor Design
+        level: ""
         icon: fa-solid fa-microchip
-        keywords: "3D-Printing, PCBdebugging-, Soldering, Wiring, Microcontroller programming"
+        keywords: "Synopsys TCAD, Silvaco Atlas TCAD, Cadence Virtuoso, Cadence ADE, Cadence Genus, Cadence Innovus, LTSpice, Intel Quartus, STM32CubeIDE, Arduino IDE"
+
+      - name: Mechanical and Multiphysics Simulation
+        level: ""
+        icon: fa-solid fa-gears
+        keywords: "SolidWorks, Ansys Mechanical (FEA), COMSOL Multiphysics, Zemax, OpenRocket, Mathematica, Origin"
+
+      - name: Hardware and Lab
+        level: ""
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "3D printing, PCB design (Altium, Eagle), PCB debugging, soldering, wiring, power devices, sheet metal working, probe stations, AFM, wafer handling, ESD-safe practice, Raspberry Pi, ESP32, STM32, CPLD boards, RTL-SDR"
+
+      - name: Semiconductor Lab Techniques
+        level: ""
+        icon: fa-solid fa-flask
+        keywords: "PVD/CVD thin-film and nanoparticle synthesis, thermal evaporation, spin and dip coating, electrodeposition, 2-/4-probe and Hall measurement, resistivity/band gap/carrier mobility characterisation, minority carrier lifetime, solar cell I–V"
+
+      - name: Optics Lab Techniques
+        level: ""
+        icon: fa-solid fa-lightbulb
+        keywords: "Michelson, Fabry–Pérot and Mach–Zehnder interferometry, single-photon Young's double slit, He–Ne laser alignment, spatial filtering, Rubidium spectroscopy, Faraday rotation, light coupling"
 
     Languages:
       - name: English
-        summary: "Fluent"
+        summary: "Fluent — IELTS 7.5"
 
       - name: Hindi
-        summary: "native"
-        
+        summary: "Native"
+
       - name: Dutch
-        summary: "Beginner"
-
-    Projects:
-      - name: ANALYTICAL MODELING FOR MOL PARASITICS OF ADVANCE DEVICES - MASTER THESIS | IMEC
-        summary: "Using diverse mathematical methods to create models for CFETs, iteratively refining by comparison with simulation results."
-        highlights:
-          - "Built a custom script to generate and simulate variable CFET dimensions, enabling parametric exploration of geometries."
-          - "Simulated 3D structures to extract SPICE models with parasitics, driving Power-Performance-Area (PPA) trade-offs."
-          - "Authored Python-based rendering and visualization scripts to accelerate the analysis of complex device architectures."
-        start_date: SEPTEMBER 2025
-        end_date: ONGOING
-
-      - name: SIMULATION AND OPTIMIZATION OF OPTICAL NEMS BASED XOR GATE - COURSE PROJECT | IMEC
-        summary: "Replicated a published device structure to optimize eletrical and dimensional parameters via simulation and analytical analysis."
-        start_date: FEB 2025
-        end_date: JUNE 2025
-
-      - name: DESIGN OF A SIMPLE OPERATIONAL TELESCOPIC AMPLIFIER (OTA) - COURSE PROJECT | MICAS KU LEUVEN
-        summary: "Designed and later tested the fabricated chip for specific Gain and Bandwidth under power & area constraints."
-        start_date: SEP 2024
-        end_date: Nov 2024
-
-      - name: DESIGNING SINGLE PHOTON AVALANCHE DIODES (SPAD) - BACHELOR THESIS | DEPT. OF EE | IIT DELHI
-        summary: "Model physical devices such as PN junction diodes, bipolar diodes and MOSFETs to understand physics and simulations."
-        highlights:
-          - "Conducted study of Planar and Epitaxial SPADs, scrutinizing breakdown voltage, structural modifications, and other performance parameters to increase Photon Detection Efficiency for 800nm wavelength infrared light to 30%."
-        start_date: AUG 2023
-        end_date: MAY 2024
+        summary: "A2"
 
     References:
-      - name: References
-        reference: "Available upon Request."
+      - reference: "Available upon request."
