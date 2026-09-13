@@ -4,7 +4,7 @@ title: Gyandadhabha
 description: A free, central place for notes and past papers — open to any student who wants them.
 img: assets/img/10.jpg
 importance: 8
-category: fun
+category: hands-on engineering
 ---
 
 A _dhaba_ is the cheap roadside eatery you find on every Indian highway — no frills, open to anyone, and

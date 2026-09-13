@@ -4,7 +4,7 @@ title: finite state machines on a CPLD
 description: Counter designs in Verilog, synthesised to real hardware and verified against a test bench.
 img: assets/img/10.jpg
 importance: 7
-category: work
+category: semiconductor and devices
 ---
 
 **Dept. of Electrical Engineering, IIT Delhi** · April – May 2022 · Supervised by Prof. Dhiman Mallick

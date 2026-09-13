@@ -4,7 +4,7 @@ title: solar corona imaging, Australia 2023
 description: Equipment lead for a four-telescope coronal imaging expedition inside a two-minute totality window.
 img: assets/img/10.jpg
 importance: 3
-category: fun
+category: hands-on engineering
 ---
 
 **University-sponsored expedition, Exmouth, Australia** · December 2022 – April 2023

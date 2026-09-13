@@ -4,7 +4,7 @@ title: 21 cm radio telescope
 description: A low-cost horn antenna built to detect neutral hydrogen and measure galaxy rotation.
 img: assets/img/10.jpg
 importance: 4
-category: fun
+category: hands-on engineering
 ---
 
 **IIT Delhi** · September – December 2022

@@ -4,7 +4,7 @@ title: 3D-printed quadcopter
 description: A 211 g self-built drone with PID flight stabilisation.
 img: assets/img/10.jpg
 importance: 5
-category: fun
+category: hands-on engineering
 ---
 
 **IIT Delhi** · December 2022

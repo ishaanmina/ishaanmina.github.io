@@ -4,7 +4,7 @@ title: pick-up arm prototype for TA-MOONS
 description: Opto-mechanical design at TIFR for a multi-object spectrometer on a 3.6 m telescope.
 img: assets/img/10.jpg
 importance: 5
-category: work
+category: semiconductor and devices
 related_publications: true
 ---
 

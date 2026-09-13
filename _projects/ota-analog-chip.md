@@ -4,7 +4,7 @@ title: operational telescopic amplifier
 description: A 180 nm OTA designed, taped out, and measured against its own simulations.
 img: assets/img/10.jpg
 importance: 3
-category: work
+category: semiconductor and devices
 ---
 
 **MICAS, KU Leuven** · September – November 2024 · Design and Implementation of Analogue Circuits

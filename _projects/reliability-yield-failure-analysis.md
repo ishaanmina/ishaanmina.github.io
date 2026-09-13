@@ -4,7 +4,7 @@ title: reliability and yield
 description: Failure-analysis case studies on semiconductor device degradation and yield loss.
 img: assets/img/10.jpg
 importance: 9
-category: work
+category: semiconductor and devices
 ---
 
 **KU Leuven** · Nanodevices and Circuits specialisation · Reliability and Yield

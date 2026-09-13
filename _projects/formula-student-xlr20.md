@@ -4,7 +4,7 @@ title: XLR-20 electric racecar
 description: 400 V accumulator and battery-management electronics for IIT Delhi's Formula Student car.
 img: assets/img/10.jpg
 importance: 1
-category: fun
+category: hands-on engineering
 ---
 
 **AXLR8R Club, IIT Delhi** · May 2021 – June 2022 · Accumulator Department

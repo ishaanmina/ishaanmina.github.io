@@ -5,7 +5,7 @@ permalink: /projects/
 description: Devices, circuits and instruments I have designed, simulated or built.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [semiconductor and devices, hands-on engineering]
 horizontal: false
 ---
 
@@ -14,7 +14,7 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category | slugify }}" href=".#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}

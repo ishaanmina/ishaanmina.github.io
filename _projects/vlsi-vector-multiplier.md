@@ -4,7 +4,7 @@ title: 8-bit vector multiplication microprocessor
 description: A full RTL-to-layout digital implementation flow, from behavioural Verilog to a timed, DRC-checked layout.
 img: assets/img/10.jpg
 importance: 6
-category: work
+category: semiconductor and devices
 ---
 
 **Dept. of Electrical Engineering, IIT Delhi** · August – November 2023 · Introduction to VLSI
