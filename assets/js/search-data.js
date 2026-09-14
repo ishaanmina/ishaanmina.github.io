@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Peer-reviewed work I have contributed to, most recent first.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-skills",
           title: "skills",
           description: "Ranked by how much they matter for semiconductor device and process work, with a depth signal on each.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/skills/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed work I have contributed to, most recent first.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -37,35 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses I have designed and taught — robotics, electronics and quantum computing.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
-              },
-            },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "books-harry-potter-series",
+        },{id: "books-harry-potter-series",
           title: 'Harry Potter (series)',
           description: "",
           section: "Books",handler: () => {
@@ -75,16 +47,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2020-percy-jackson/";
-            },},{id: "books-fahrenheit-451",
-          title: 'Fahrenheit 451',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/2021-fahrenheit-451/";
             },},{id: "books-the-hunger-games-series",
           title: 'The Hunger Games (series)',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2021-hunger-games/";
+            },},{id: "books-fahrenheit-451",
+          title: 'Fahrenheit 451',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2021-fahrenheit-451/";
             },},{id: "books-the-alchemist",
           title: 'The Alchemist',
           description: "",
@@ -188,7 +160,7 @@ ninja.data = [{
               window.location.href = "/projects/spad-design-simulation/";
             },},{id: "projects-pick-up-arm-prototype-for-ta-moons",
           title: 'pick-up arm prototype for TA-MOONS',
-          description: "Opto-mechanical design at TIFR for a multi-object spectrometer on a 3.6 m telescope.",
+          description: "Precision optomechanical design and error-budget analysis to 16 µm and 5 µrad, for a multi-object spectrometer pick-up arm.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tamoons-pickup-arm/";
             },},{id: "projects-finite-state-machines-on-a-cpld",
@@ -221,7 +193,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv.pdf", "_blank");
+          window.open("/assets/pdf/Ishaan_Jain_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -250,13 +222,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/ishaan-jain-7515761bb", "_blank");
-        },
-      },{
-        id: 'social-whatsapp',
-        title: 'whatsapp',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wa.me/32456735911", "_blank");
         },
       },{
       id: 'light-theme',
