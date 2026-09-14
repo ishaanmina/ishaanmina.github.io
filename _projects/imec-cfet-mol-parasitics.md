@@ -3,6 +3,7 @@ layout: page
 title: MOL parasitics for advanced CFETs
 description: Design-Technology Co-Optimization at imec — parametric TCAD, Kron-reduced parasitic networks, and a SPICE-ready compact model.
 img: assets/img/imec-thesis.png
+meta: "imec · 2025–26 · master's thesis"
 importance: 1
 category: semiconductor and devices
 ---

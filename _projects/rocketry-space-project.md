@@ -3,8 +3,9 @@ layout: page
 title: student-led rocketry project
 description: Founding IIT Delhi's first student-led space project — solid propellant, test benches, and the altitude problem.
 img: assets/img/open-rocket.webp
+meta: "IIT Delhi · 2023 · society project"
 importance: 2
-category: hands-on engineering
+category: hardware and instrumentation
 ---
 
 **Physics and Astronomy Society, IIT Delhi** · 2023 · Founding member and instructor

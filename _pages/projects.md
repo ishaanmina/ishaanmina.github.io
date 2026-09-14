@@ -5,7 +5,7 @@ permalink: /projects/
 description: Devices, circuits and instruments I have designed, simulated or built.
 nav: true
 nav_order: 2
-display_categories: [semiconductor and devices, hands-on engineering]
+display_categories: [semiconductor and devices, hardware and instrumentation]
 horizontal: false
 ---
 

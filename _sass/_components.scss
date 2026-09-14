@@ -154,6 +154,14 @@ ul.task-list input[type="checkbox"] {
       margin-bottom: 0.35rem;
     }
 
+    .card-meta {
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.4rem;
+    }
+
     .card-text {
       font-size: 0.85rem;
       line-height: 1.35;

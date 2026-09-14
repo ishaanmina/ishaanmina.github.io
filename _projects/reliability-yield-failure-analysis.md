@@ -3,6 +3,7 @@ layout: page
 title: reliability and yield
 description: Failure-analysis case studies on semiconductor device degradation and yield loss.
 img: assets/img/bathtub-curve.webp
+meta: "KU Leuven · 2025 · coursework"
 importance: 9
 category: semiconductor and devices
 ---

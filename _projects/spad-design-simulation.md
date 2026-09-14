@@ -3,6 +3,7 @@ layout: page
 title: single photon avalanche diodes
 description: Bachelor thesis — silicon SPAD design in Silvaco TCAD for near-infrared detection.
 img: assets/img/BTP-1.png
+meta: "IIT Delhi · 2023–24 · bachelor thesis"
 importance: 2
 category: semiconductor and devices
 ---

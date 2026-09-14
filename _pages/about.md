@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+seo_title: Ishaan Jain — Semiconductor Device Engineer | TCAD, DTCO | Leuven
 subtitle: Nanodevices engineer · <a href='https://www.kuleuven.be/programmes/master-nanoscience-nanotechnology-nanoengineering'>MSc Nanoscience, KU Leuven</a> · thesis at imec.
 
 profile:

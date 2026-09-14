@@ -3,6 +3,7 @@ layout: page
 title: computational methods in physics
 description: Crank–Nicolson solutions to the time-dependent Schrödinger equation in Julia.
 img: assets/img/Julia-project.png
+meta: "IIT Delhi · 2023 · course project"
 importance: 8
 category: semiconductor and devices
 ---

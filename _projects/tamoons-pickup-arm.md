@@ -3,6 +3,7 @@ layout: page
 title: pick-up arm prototype for TA-MOONS
 description: Precision optomechanical design and error-budget analysis to 16 µm and 5 µrad, for a multi-object spectrometer pick-up arm.
 img: assets/img/TIFR-2.png
+meta: "TIFR · 2023 · internship"
 importance: 5
 category: semiconductor and devices
 related_publications: true

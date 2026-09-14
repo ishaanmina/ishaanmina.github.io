@@ -3,6 +3,7 @@ layout: page
 title: finite state machines on a CPLD
 description: Counter designs in Verilog, synthesised to real hardware and verified against a test bench.
 img: assets/img/GTKwave.jpg
+meta: "IIT Delhi · 2022 · course project"
 importance: 7
 category: semiconductor and devices
 ---

@@ -3,6 +3,7 @@ layout: page
 title: optical NEMS-based XOR gate
 description: Simulating and optimising a 1550 nm electro-mechanical optical logic gate.
 img: assets/img/XOR-2.png
+meta: "imec · 2025 · course project"
 importance: 4
 category: semiconductor and devices
 ---

@@ -3,8 +3,9 @@ layout: page
 title: solar corona imaging, Australia 2023
 description: Equipment lead for a four-telescope coronal imaging expedition inside a two-minute totality window.
 img: assets/img/Solar-eclipse.jpg
+meta: "IIT Delhi · 2022–23 · expedition"
 importance: 3
-category: hands-on engineering
+category: hardware and instrumentation
 ---
 
 **University-sponsored expedition, Exmouth, Australia** · December 2022 – April 2023

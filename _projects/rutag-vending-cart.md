@@ -3,8 +3,9 @@ layout: page
 title: RuTAG smart vending cart
 description: Survey-driven modular attachments for street vegetable carts, designed to cost 40–60% less than commercial equivalents.
 img: assets/img/RuTag-image.png
+meta: "IIT Delhi · 2021 · rural tech"
 importance: 7
-category: hands-on engineering
+category: hardware and instrumentation
 ---
 
 **Rural Technology Action Group, IIT Delhi** · July – August 2021
