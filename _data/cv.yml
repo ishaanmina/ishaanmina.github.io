@@ -62,10 +62,10 @@ cv:
         location: Mumbai, India
         start_date: Jun 2023
         end_date: Jul 2023
-        summary: "Mechanical design of the pick-up arm for TA-MOONS, a multi-object spectrometer for the 3.6 m Devasthal Optical Telescope. Contributing author on the resulting SPIE 2024 paper."
+        summary: "Precision optomechanical design and error-budget analysis for the TA-MOONS pick-up arm, a multi-object spectrometer mechanism for the 3.6 m Devasthal Optical Telescope. Contributing author on the resulting SPIE 2024 paper."
         highlights:
           - "Designed the robotic pick-up arm in SolidWorks; ran FEA in Ansys Mechanical for structural and thermal integrity."
-          - "Achieved 16 µm and 5 µrad precision through design optimisation, addressing vibration and manufacturing-tolerance error sources."
+          - "Achieved 16 µm and 5 µrad precision through error-budget design optimisation; ran FMEA and 5-whys on the mechanism and applied DFM so the required tolerances were manufacturable."
           - "Used Zemax to verify optical focus and movement, and MATLAB/Simulink for the control algorithm selecting which of 8 arms picks a 13 mm² area from a 10 m aperture field."
 
       - company: Rancho Labs
@@ -118,7 +118,7 @@ cv:
           - "Designed and helped manufacture a 400 V lithium-ion pouch cell battery module with a passive BMS; cells vendor-selected and specified."
           - "Designed 2 PCBs — a per-cell sensing board replicated 8× to monitor all 192 cells, and a data-aggregation board feeding the vehicle control unit. Tested and debugged 20+ PCBs."
           - "Designed safety circuits in Altium, simulated in LTSpice; owned fuse specification from HPC fuses down to 0603 SMD; 50+ hours of cell capacity testing plotted in MATLAB."
-          - "Designed a charging cart with tubular CAD and DFM principles; performed manufacturing-cost analysis for the Cost event."
+          - "Ran FMEA on the accumulator and 5-whys root-cause analysis during board bring-up; designed a charging cart with tubular CAD and DFM principles; performed manufacturing-cost analysis for the Cost event."
 
       - name: RuTAG Smart Vending Cart — Rural Technology Development (Jul – Aug 2021)
         url: /projects/rutag-vending-cart/

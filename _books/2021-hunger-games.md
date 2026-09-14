@@ -2,8 +2,10 @@
 layout: book-review
 title: The Hunger Games (series)
 author: Suzanne Collins
+cover: assets/img/book_covers/hunger-games.jpg
 isbn: 9780439023481
 categories: dystopia series young-adult
+date: 2021-01-01
 started: 2021-01-01
 released: 2008
 status: Finished

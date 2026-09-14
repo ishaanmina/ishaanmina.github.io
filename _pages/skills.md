@@ -4,7 +4,7 @@ permalink: /skills/
 title: skills
 description: Ranked by how much they matter for semiconductor device and process work, with a depth signal on each.
 nav: true
-nav_order: 4
+nav_order: 3
 toc:
   sidebar: left
 ---
@@ -87,6 +87,9 @@ Hands-on time in the lab, not just simulation.
 | :---------------------------------------------------------- | :---: | :----------------------------------------------------------------------------------- |
 | **PCB design** (Altium, Eagle)                              |   ●   | 2 boards designed, 20+ debugged — [XLR-20 racecar](/projects/formula-student-xlr20/) |
 | **Battery systems** — pack design, BMS, balancing, charging |   ●   | 400 V, 192-cell accumulator                                                          |
+| **Board bring-up and root-cause debug**                     |   ●   | 20+ PCBs, fault isolation to component/joint/design; TCAD tooling fault-finding      |
+| **High-voltage safety practice**                            |   ●   | 400 V system: isolation, interlocks, fuse protection hierarchy, ESD handling         |
+| **FMEA, 5-whys root-cause analysis, DFM**                   |   ●   | Applied on the accumulator and the TIFR pick-up arm mechanism                        |
 | **Soldering, wiring, high-voltage power train**             |   ●   | Accumulator-to-motor-controller integration                                          |
 | **Embedded** — ESP32, STM32, Raspberry Pi, CPLD             |   ●   | [Quadcopter](/projects/quadcopter-drone/), robotics teaching                         |
 | **3D printing, laser cutting, sheet metal**                 |   ●   | Drone frame, eclipse mounts, telescope hardware                                      |

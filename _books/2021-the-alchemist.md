@@ -2,8 +2,10 @@
 layout: book-review
 title: The Alchemist
 author: Paulo Coelho
+cover: assets/img/book_covers/the-alchemist.jpg
 isbn: 9780062315007
 categories: fiction philosophy novels
+date: 2021-09-01
 started: 2021-09-01
 released: 1988
 status: Finished

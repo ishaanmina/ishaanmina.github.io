@@ -30,18 +30,28 @@ one of which has to be monitored and every fault path accounted for.
 - Designed 2 PCBs: a per-cell sensing board, replicated 8× across the pack to monitor all **192 cells**;
   and a data-aggregation board that collected sensor data and transmitted it to the vehicle control unit
   for dashboard display.
-- Personally tested and debugged **20+ PCBs**.
+- Brought up, tested and root-cause debugged **20+ PCBs** — isolating faults to component, solder joint or
+  design, and feeding the findings back into the next revision.
 - Soldered, wired and connected power devices across the vehicle's power train, from the 400 V accumulator
   through to the motor controllers.
 - Designed self-built safety circuits; manufactured and debugged boards in **Altium PCB Designer**;
   simulated in **LTSpice**.
-- Owned fuse selection and specification across systems, from HPC fuses down to 0603 SMD fuses.
+- Owned fuse selection and specification across systems, from HPC fuses down to 0603 SMD fuses — sizing
+  each against fault current, interrupt rating and the protection hierarchy of a 400 V system.
+- Worked to the Formula Student electrical safety rules for high-voltage systems: isolation, insulation
+  monitoring, interlocks, and ESD-safe handling of the cell-level electronics.
+- Ran a **failure mode and effects analysis (FMEA)** on the accumulator: enumerated failure modes across
+  cells, busbars, sensing, BMS and fusing, ranked them by severity, occurrence and detectability, and used
+  the ranking to decide where the safety circuits and fuse specification above went first.
+- Used **5-whys** root-cause analysis on board and pack faults during bring-up, so that fixes went into the
+  design rather than the symptom.
 - Ran **50+ hours** of capacity testing on lithium-ion pouch cells, plotted in MATLAB, and wrote the
   pseudo-code for the charging logic.
 
 ### Mechanical and cost
 
-- Designed a charging cart using tubular CAD modelling with DFM principles, manufactured using laser-cut
+- Designed a charging cart using tubular CAD modelling with **design-for-manufacture (DFM)** principles,
+  manufactured using laser-cut
   fixtures.
 - Performed manufacturing-cost analysis for the Cost event at Formula Bharat, identifying and implementing
   cost-saving opportunities across manufacturing processes.

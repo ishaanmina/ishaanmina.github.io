@@ -2,8 +2,10 @@
 layout: book-review
 title: Fahrenheit 451
 author: Ray Bradbury
+cover: assets/img/book_covers/fahrenheit-451.jpg
 isbn: 9781451673319
 categories: classics dystopia science-fiction
+date: 2021-06-01
 started: 2021-06-01
 released: 1953
 status: Finished

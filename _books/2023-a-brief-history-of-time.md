@@ -2,8 +2,10 @@
 layout: book-review
 title: A Brief History of Time
 author: Stephen Hawking
+cover: assets/img/book_covers/a-brief-history-of-time.jpg
 isbn: 9780553380163
 categories: physics popular-science cosmology
+date: 2023-01-01
 started: 2023-01-01
 released: 1988
 status: Reading

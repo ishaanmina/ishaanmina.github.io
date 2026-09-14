@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Courses I have designed and taught — robotics, electronics and quantum computing.
-nav: true
+nav: false
 nav_order: 6
 ---
 
