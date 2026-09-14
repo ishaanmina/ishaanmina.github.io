@@ -37,7 +37,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-harry-potter-series",
+        },{id: "dropdown-teaching",
+              title: "teaching",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "books-harry-potter-series",
           title: 'Harry Potter (series)',
           description: "",
           section: "Books",handler: () => {
