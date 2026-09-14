@@ -13,3 +13,6 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+# Personal documents — never publish
+assets/pdf/Other_work.pdf
+assets/img/qiskit-certificate.png

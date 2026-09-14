@@ -2,7 +2,7 @@
 layout: page
 title: quantum error mitigation
 description: IBM Qiskit Global Summer School — cutting computational error from ~70% to under 10%.
-img: assets/img/10.jpg
+img: assets/img/qiskit.png
 importance: 6
 category: hands-on engineering
 ---

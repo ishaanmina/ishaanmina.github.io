@@ -2,7 +2,7 @@
 layout: page
 title: 8-bit vector multiplication microprocessor
 description: A full RTL-to-layout digital implementation flow, from behavioural Verilog to a timed, DRC-checked layout.
-img: assets/img/10.jpg
+img: assets/img/8-bit_Processor.png
 importance: 6
 category: semiconductor and devices
 ---
@@ -25,6 +25,15 @@ placement, clock tree, and routing.
 
 **4. Sign-off.** Ran **static timing analysis** to confirm the design met its timing constraints across
 corners, and **design rule checks** to confirm the layout was physically manufacturable.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/8-bit_Processor.png" title="Final placed-and-routed layout of the 8-bit vector multiplication unit in Cadence Innovus, after timing closure and DRC." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Final placed-and-routed layout of the 8-bit vector multiplication unit in Cadence Innovus, after timing closure and DRC.
+</div>
 
 ### Why the full flow matters
 

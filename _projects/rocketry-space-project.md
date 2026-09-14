@@ -2,7 +2,7 @@
 layout: page
 title: student-led rocketry project
 description: Founding IIT Delhi's first student-led space project — solid propellant, test benches, and the altitude problem.
-img: assets/img/10.jpg
+img: assets/img/open-rocket.webp
 importance: 2
 category: hands-on engineering
 ---
@@ -41,6 +41,15 @@ characterising that trade-off on the test bench is what turns a chemistry recipe
 - **Mass budgeting for altitude** — working backwards from a target to the mass we could afford: first
   100 ft, then 1000 ft, then further. This is the constraint that drives every other decision, and it is
   the cleanest possible demonstration to a junior of why engineering is mostly budgets.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/open-rocket.webp" title="OpenRocket simulation of a candidate airframe: stability margin, centre of pressure versus centre of mass, and predicted apogee for a given motor and mass budget." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    OpenRocket simulation of a candidate airframe: stability margin, centre of pressure versus centre of mass, and predicted apogee for a given motor and mass budget.
+</div>
 
 ### Skills
 

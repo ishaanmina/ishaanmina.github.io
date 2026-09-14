@@ -2,7 +2,7 @@
 layout: page
 title: single photon avalanche diodes
 description: Bachelor thesis — silicon SPAD design in Silvaco TCAD for near-infrared detection.
-img: assets/img/10.jpg
+img: assets/img/BTP-1.png
 importance: 2
 category: semiconductor and devices
 ---
@@ -26,6 +26,15 @@ The thesis asked how far a silicon-based approach could be pushed toward competi
 - **30% PDE at 800 nm** (infrared), against an industry baseline of roughly 50% PDE for comparable sensors.
 - Breakdown voltage: **−18.1 V**.
 
-### Tools
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BTP-1.png" title="Silvaco Atlas simulation of the SPAD cross-section: electric-field magnitude at bias, showing the high-field multiplication region under the central junction and the guard-ring structure suppressing premature edge breakdown." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Silvaco Atlas simulation of the SPAD cross-section: electric-field magnitude at bias, showing the high-field multiplication region under the central junction and the guard-ring structure suppressing premature edge breakdown.
+</div>
+
+### Skills
 
 Silvaco Atlas TCAD · semiconductor device physics

@@ -2,12 +2,21 @@
 layout: page
 title: solar corona imaging, Australia 2023
 description: Equipment lead for a four-telescope coronal imaging expedition inside a two-minute totality window.
-img: assets/img/10.jpg
+img: assets/img/Solar-eclipse.jpg
 importance: 3
 category: hands-on engineering
 ---
 
 **University-sponsored expedition, Exmouth, Australia** · December 2022 – April 2023
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Total-Solar_eclipse.png" title="The observation setup in the desert outside Exmouth, Western Australia, on eclipse day: multiple refractors on tracking mounts, each with a different filter, plus a DSLR on a fixed tripod." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The observation setup in the desert outside Exmouth, Western Australia, on eclipse day: multiple refractors on tracking mounts, each with a different filter, plus a DSLR on a fixed tripod.
+</div>
 
 The sun's corona is only observable from the ground during a total solar eclipse, and the totality window
 at Exmouth on 20 April 2023 was about two minutes long. Everything — mounts, tracking, filters, power,

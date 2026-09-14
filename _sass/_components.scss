@@ -138,6 +138,26 @@ ul.task-list input[type="checkbox"] {
   .card {
     img {
       width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      object-position: center;
+      background-color: var(--global-card-bg-color);
+    }
+
+    .card-body {
+      padding: 0.9rem 1rem;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      font-weight: 500;
+      margin-bottom: 0.35rem;
+    }
+
+    .card-text {
+      font-size: 0.85rem;
+      line-height: 1.35;
+      margin-bottom: 0.25rem;
     }
   }
 

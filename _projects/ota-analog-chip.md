@@ -2,7 +2,7 @@
 layout: page
 title: operational telescopic amplifier
 description: A 180 nm OTA designed, taped out, and measured against its own simulations.
-img: assets/img/10.jpg
+img: assets/img/OTA-layout.png
 importance: 3
 category: semiconductor and devices
 ---
@@ -28,6 +28,18 @@ genuinely useful half of an analogue design course.
 - Area was not calculated — the design sat comfortably inside the area budget.
 
 The physical chip is still in my possession.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/OTA-Schematic.png" title="OTA schematic" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/OTA-layout.png" title="OTA layout" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The telescopic OTA: schematic in Cadence Virtuoso (left) and the taped-out layout in 180 nm (right). Ten transistors.
+</div>
 
 ### Skills
 

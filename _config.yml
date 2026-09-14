@@ -175,6 +175,8 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - assets/pdf/Other_work.pdf # personal documents, never publish
+  - assets/img/qiskit-certificate.png
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

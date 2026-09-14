@@ -2,7 +2,7 @@
 layout: page
 title: 21 cm radio telescope
 description: A low-cost horn antenna built to detect neutral hydrogen and measure galaxy rotation.
-img: assets/img/10.jpg
+img: assets/img/sawbird3.png
 importance: 4
 category: hands-on engineering
 ---
@@ -24,6 +24,15 @@ is a real instrumentation problem rather than a shopping exercise.
 
 Measurement precision was constrained by the receiver noise floor and the antenna aperture size, which is
 the expected trade-off for a low-cost build.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sawbird3.png" title="The receive chain front end: a SAWbird+ H1 low-noise amplifier and band-pass filter centred on 1420 MHz, between the horn antenna and the RTL-SDR. Product image, Nooelec." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The receive chain front end: a SAWbird+ H1 low-noise amplifier and band-pass filter centred on 1420 MHz, between the horn antenna and the RTL-SDR. Product image, Nooelec.
+</div>
 
 ### Skills
 

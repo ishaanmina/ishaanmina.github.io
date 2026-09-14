@@ -2,7 +2,6 @@
 layout: page
 title: Gyandadhabha
 description: A free, central place for notes and past papers — open to any student who wants them.
-img: assets/img/10.jpg
 importance: 8
 category: hands-on engineering
 ---

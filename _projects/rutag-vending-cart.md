@@ -2,7 +2,7 @@
 layout: page
 title: RuTAG smart vending cart
 description: Survey-driven modular attachments for street vegetable carts, designed to cost 40–60% less than commercial equivalents.
-img: assets/img/10.jpg
+img: assets/img/RuTag-image.png
 importance: 7
 category: hands-on engineering
 ---
@@ -29,6 +29,15 @@ actually earn. The project started from the vendors rather than from the technol
 
 Design and specification phase complete — CAD, material selection and manufacturing method are documented.
 Manufacturing and deployment were outside the scope of this phase.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/RuTag-image.png" title="SolidWorks model of the standard vegetable cart with the proposed modular attachments, used for centre-of-mass and stability analysis." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    SolidWorks model of the standard vegetable cart with the proposed modular attachments, used for centre-of-mass and stability analysis.
+</div>
 
 ### Skills
 

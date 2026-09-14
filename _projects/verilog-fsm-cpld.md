@@ -2,7 +2,7 @@
 layout: page
 title: finite state machines on a CPLD
 description: Counter designs in Verilog, synthesised to real hardware and verified against a test bench.
-img: assets/img/10.jpg
+img: assets/img/GTKwave.jpg
 importance: 7
 category: semiconductor and devices
 ---
@@ -21,6 +21,15 @@ hardware and writing code that merely simulates correctly.
   resource limits and real propagation delays.
 - Built a **test bench** to drive the designs through their full state space and interpreted the resulting
   waveforms in **GTKWave**.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/GTKwave.jpg" title="GTKWave, the waveform viewer used to read the test-bench output. Illustrative trace; the counter designs were verified the same way, signal by signal against the expected state sequence." class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    GTKWave, the waveform viewer used to read the test-bench output. Illustrative trace; the counter designs were verified the same way, signal by signal against the expected state sequence.
+</div>
 
 ### What it taught
 
