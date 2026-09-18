@@ -43,12 +43,15 @@ The centre of what I do.
 
 ## 3. Semiconductor lab and characterisation
 
-Hands-on time in the lab, not just simulation.
+Hands-on time in the lab, not just simulation. All of the techniques below were acquired in the
+[IIT Delhi Department of Physics laboratories](https://physics.iitd.ac.in/booking) — the linked page lists
+the equipment and the experiments each lab runs — except reliability and failure analysis, which is KU Leuven
+coursework.
 
 | Technique                                                | Depth | Notes                                                                    |
 | :------------------------------------------------------- | :---: | :----------------------------------------------------------------------- |
-| **Probe stations, wafer handling, ESD-safe practice**    |   ◐   | Device-level electrical test                                             |
-| **Atomic force microscopy (AFM)**                        |   ◐   | Surface characterisation                                                 |
+| **Probe stations, wafer handling, ESD-safe practice**    |   ◐   | Device-level electrical test, IIT Delhi                                  |
+| **Atomic force microscopy (AFM)**                        |   ◐   | Surface characterisation, IIT Delhi                                      |
 | **2-/4-probe and Hall measurement**                      |   ◐   | Resistivity, carrier density, mobility                                   |
 | **Thin-film deposition** (PVD, CVD, thermal evaporation) |   ◐   | Thin films, multilayers, nanoparticles                                   |
 | **Spin coating, dip coating, electrodeposition**         |   ◐   | Wet-process film formation                                               |
@@ -103,7 +106,9 @@ SharpCap and Siril (astrophotography) · Adobe Suite · Selenium · HTML/CSS
 
 # Lab experience
 
-Experimental techniques I have run hands-on, in full.
+Experimental techniques I have run hands-on, in full. Solid-state and optics work is from the
+[IIT Delhi Physics laboratories](https://physics.iitd.ac.in/booking); electronics from the IIT Delhi EE labs
+and Formula Student.
 
 ## Solid state and semiconductors
 

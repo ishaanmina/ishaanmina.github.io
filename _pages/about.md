@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 seo_title: Ishaan Jain — Semiconductor Device Engineer | TCAD, DTCO | Leuven
-subtitle: Nanodevices engineer · <a href='https://www.kuleuven.be/programmes/master-nanoscience-nanotechnology-nanoengineering'>MSc Nanoscience, KU Leuven</a> · thesis at imec.
+subtitle: Nanodevices engineer · <a href='https://www.kuleuven.be/programmes/master-nanoscience-nanotechnology-nanoengineering'>MSc Nanoscience, KU Leuven</a>, cum laude · thesis at imec.
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-- **IMEC**: master's thesis on CFET design-technology co-optimisation, building a 43-parameter parasitic capacitance model accurate to under 10%.
+- **MSc, KU Leuven, cum laude** (2026), with a master's thesis at **imec** on CFET design-technology co-optimisation: a 43-parameter parasitic capacitance model accurate to under 10%.
 - **Taped-out 180 nm OTA** at KU Leuven, with silicon matching simulation to within 1%.
 - **TIFR**: precision optomechanical design and error-budget analysis to 16 µm and 5 µrad, co-author on the resulting SPIE 2024 paper.
 - **Formula Student**, IIT Delhi: 3rd overall in 2022, on the 400 V accumulator electronics.
@@ -41,4 +41,4 @@ My expertise lies in building nanodevices from the ground up, where I apply a cu
 and technical challenges inherent in practical device development.
 I thrive on translating lab innovations into impactful technologies, and on making sure advanced research moves from the cleanroom to people effectively.
 
-I recently completed my MSc at KU Leuven with a thesis at imec on parasitic modelling for advanced CFETs.
+I hold an MSc from KU Leuven, graduated cum laude in 2026, with a thesis at imec on parasitic modelling for advanced CFETs.
