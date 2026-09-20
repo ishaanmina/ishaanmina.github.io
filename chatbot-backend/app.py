@@ -115,7 +115,10 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     raise RuntimeError("GEMINI_API_KEY is not set. Add it in Vercel → Settings → Environment Variables.")
 
-GEMINI_MODEL = "gemini-2.5-flash"
+# Model name can be overridden without a code change: set GEMINI_MODEL in the
+# Vercel environment variables. Current free-tier fast models: gemini-3.5-flash,
+# gemini-3.5-flash-lite, gemini-3.8-flash (see ai.google.dev/gemini-api/docs/models).
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 _gemini = genai.Client(api_key=GEMINI_API_KEY)
 
 
@@ -142,6 +145,8 @@ def ask_model(system_prompt: str, messages: list[dict]) -> str:
     except genai_errors.APIError as e:
         if e.code == 429:
             raise ProviderBusy() from e
+        # Log the provider's own words (Vercel → Logs) but show the visitor only the code.
+        print(f"[gemini] {e.code} {e.status}: {e.message}", flush=True)
         raise ProviderError(f"The AI service returned an error ({e.code}).") from e
     except Exception as e:  # network / SDK trouble
         raise ProviderError("Could not reach the AI service.") from e
