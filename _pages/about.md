@@ -33,7 +33,7 @@ latest_posts:
 
 > **Looking for** device, process or equipment engineering roles in the semiconductor industry. Open to relocating anywhere. **Available immediately.**
 > Eligible to work in Belgium without sponsorship (post-graduation search-year permit); EU Blue Card eligible elsewhere in the EU.
-> <a href="mailto:jain.ishaan@zohomail.eu">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/ishaan-jain-7515761bb">LinkedIn</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdf/Ishaan_Jain_CV.pdf' | relative_url }}">CV (PDF)</a> &nbsp;·&nbsp; <a href="#chat" class="chat-open-link"><i class="fa-solid fa-robot" aria-hidden="true"></i> Ask AI Ishaan</a>
+> <a href="mailto:jain.ishaan@zohomail.eu">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/ishaan-jain-7515761bb">LinkedIn</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdf/Ishaan_Jain_CV.pdf' | relative_url }}">CV (PDF)</a>
 > {: .block-tip }
 
 I’ve always been driven to solve complex problems through scientific methods — luckily, that led me to engineering.

@@ -123,15 +123,6 @@
   toggleBtn.addEventListener("click", openPanel);
   closeBtn.addEventListener("click", closePanel);
 
-  // Any link with class "chat-open-link" (e.g. on the homepage) opens the panel
-  // instead of navigating. Python analogy: one handler bound to every matching element.
-  document.querySelectorAll(".chat-open-link").forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      event.preventDefault();
-      openPanel();
-    });
-  });
-
   // ---------------------------------------------------------------------------
   // 4b. Drawing attention on first visit.
   //     - The button pulses for 8 seconds after every page load.
