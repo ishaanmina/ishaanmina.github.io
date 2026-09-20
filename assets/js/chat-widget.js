@@ -64,10 +64,35 @@
   function addMessage(text, kind) {
     const el = document.createElement("div");
     el.className = "chat-msg " + kind;
-    el.textContent = text; // textContent (not innerHTML) so nothing is treated as HTML — safe against injection
+    // Bot replies may contain links to pages on this site. We never use innerHTML
+    // (that would let the model inject HTML); instead we split the text on URLs
+    // and build text nodes and <a> elements by hand, which the browser escapes.
+    if (kind === "bot") {
+      renderWithLinks(el, text);
+    } else {
+      el.textContent = text;
+    }
     messagesEl.appendChild(el);
     messagesEl.scrollTop = messagesEl.scrollHeight; // scroll to the newest message
     return el;
+  }
+
+  // Turn "see https://ishaanmina.github.io/projects/x/" into a real link. Only
+  // https URLs on this site become links; anything else stays plain text.
+  function renderWithLinks(el, text) {
+    const urlPattern = /https:\/\/ishaanmina\.github\.io\/[^\s)]*/g;
+    let last = 0;
+    let match;
+    while ((match = urlPattern.exec(text)) !== null) {
+      el.appendChild(document.createTextNode(text.slice(last, match.index)));
+      const a = document.createElement("a");
+      const url = match[0].replace(/[.,;:]+$/, ""); // drop trailing punctuation
+      a.href = url;
+      a.textContent = url.replace("https://ishaanmina.github.io", ""); // show the short path
+      el.appendChild(a);
+      last = match.index + url.length;
+    }
+    el.appendChild(document.createTextNode(text.slice(last)));
   }
 
   // The animated three-dot "typing" indicator.

@@ -218,6 +218,12 @@
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
     border-bottom-left-radius: 4px;
+
+    a {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+      word-break: break-all;
+    }
   }
 
   &.status {
