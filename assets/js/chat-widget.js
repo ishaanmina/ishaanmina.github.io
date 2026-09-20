@@ -200,12 +200,12 @@
 
     const typingEl = addTyping();
 
-    // If the reply takes more than ~6 s it's almost certainly the Space waking
-    // up, so swap the dots for a reassuring message rather than looking stuck.
+    // If the reply takes unusually long, add a small note under the typing
+    // dots so the visitor knows it is still working rather than stuck.
     let statusEl = null;
     const wakeTimer = setTimeout(function () {
-      statusEl = addMessage("Waking up the server — the first question can take a few extra seconds…", "status");
-    }, 6000);
+      statusEl = addMessage("Still thinking — this one is taking a little longer than usual…", "status");
+    }, 10000);
 
     try {
       // fetch() is the browser's HTTP client. Python equivalent:
