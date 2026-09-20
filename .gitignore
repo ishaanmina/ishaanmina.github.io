@@ -16,3 +16,4 @@ vendor
 # Personal documents — never publish
 assets/pdf/Other_work.pdf
 assets/img/qiskit-certificate.png
+chatbot-backend/.venv/

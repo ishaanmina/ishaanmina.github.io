@@ -73,6 +73,13 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: https://ishaanmina.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image — must be an absolute URL
 
 # -----------------------------------------------------------------------------
+# "Talk to me" chat widget
+# -----------------------------------------------------------------------------
+# URL of the Hugging Face Space running chatbot-backend/ (no trailing slash).
+# Leave empty to hide the widget entirely. See chatbot-backend/README.md.
+chatbot_url:
+
+# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 

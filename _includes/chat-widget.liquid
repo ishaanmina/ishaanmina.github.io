@@ -1,0 +1,40 @@
+{% comment %}
+  "Talk to me" chat widget. Included once from _layouts/default.liquid.
+  The backend URL comes from _config.yml (chatbot_url) so it is not hardcoded
+  in the JavaScript; the JS reads it from the data-endpoint attribute below.
+  If chatbot_url is empty the whole widget is skipped.
+{% endcomment %}
+{% if site.chatbot_url %}
+  <div id="chat-widget" data-endpoint="{{ site.chatbot_url }}" data-email="{{ site.data.socials.email }}">
+    <button id="chat-toggle" type="button" aria-label="Open chat" aria-expanded="false" aria-controls="chat-panel">
+      <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+      <span class="chat-toggle-label">Talk to me</span>
+    </button>
+
+    <section id="chat-panel" role="dialog" aria-labelledby="chat-title" hidden>
+      <header class="chat-header">
+        <div>
+          <div id="chat-title" class="chat-title">Talk to me</div>
+          <div class="chat-disclaimer">AI version of me &mdash; may get things wrong</div>
+        </div>
+        <button id="chat-close" type="button" aria-label="Close chat">&times;</button>
+      </header>
+
+      <div id="chat-messages" class="chat-messages" aria-live="polite"></div>
+
+      <div id="chat-starters" class="chat-starters">
+        <button type="button" class="chat-starter">What did you do at imec?</button>
+        <button type="button" class="chat-starter">What roles are you looking for?</button>
+        <button type="button" class="chat-starter">Tell me about the chip you taped out</button>
+        <button type="button" class="chat-starter">Can you work in Belgium without sponsorship?</button>
+      </div>
+
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <input id="chat-input" type="text" placeholder="Ask about my work…" maxlength="1000" required aria-label="Your question">
+        <button id="chat-send" type="submit" aria-label="Send">
+          <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+        </button>
+      </form>
+    </section>
+  </div>
+{% endif %}
