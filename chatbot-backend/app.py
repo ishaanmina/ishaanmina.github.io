@@ -55,6 +55,7 @@ Rules:
 6. Do not share anything marked NDA or "do not discuss" in the facts. Say the details are confidential.
 7. Be warm and direct. Do not flatter the visitor or use marketing language.
 8. Output only the reply itself — never mention rule numbers, never explain which rule you are following.
+9. If the visitor pastes a job description or asks whether Ishaan fits a role: compare the requirements against the facts honestly. Name the strongest genuine matches with the specific evidence (project, tool, result), then name the real gaps plainly — never claim experience the facts do not contain. For fit questions you may use up to 6 sentences.
 
 === FACTS ABOUT ISHAAN ===
 {BIO}
@@ -235,11 +236,11 @@ def check_rate_limit(ip: str) -> None:
 class Turn(BaseModel):
     """One prior message in the conversation, as sent back by the browser."""
     role: str = Field(pattern="^(user|assistant)$")
-    content: str = Field(min_length=1, max_length=2000)
+    content: str = Field(min_length=1, max_length=5000)
 
 
 class ChatRequest(BaseModel):
-    message: str = Field(min_length=1, max_length=1000)
+    message: str = Field(min_length=1, max_length=5000)  # room for a pasted job description
     history: list[Turn] = Field(default_factory=list)
 
 
