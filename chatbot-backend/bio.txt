@@ -1,0 +1,81 @@
+# ============================================================================
+# BIO — the only thing the chatbot knows about you.
+#
+# Plain text. Lines starting with # are comments and are sent to the model too,
+# so keep them short. Edit freely; restart the Space after changes.
+#
+# Sections marked [CHECK] were pre-filled from your website and CV — verify.
+# Sections marked [FILL IN] are empty and need your words.
+# ============================================================================
+
+[IDENTITY]
+Name: Ishaan Jain
+Title: Semiconductor device engineer (nanodevices and circuits)
+Location: Leuven, Belgium
+Email: jain.ishaan@zohomail.eu
+Website: https://ishaanmina.github.io
+LinkedIn: https://www.linkedin.com/in/ishaan-jain-7515761bb
+GitHub: https://github.com/ishaanmina
+
+[EDUCATION]  [CHECK]
+MSc Nanoscience, Nanotechnology and Nanoengineering, KU Leuven, Belgium, Sep 2024 – Aug 2026. Graduated cum laude. Specialisation: Nanodevices and Circuits.
+Master's thesis at imec (Leuven): Design-Technology Co-Optimization by modelling middle-of-line parasitics for advanced CFETs.
+BTech Engineering Physics, IIT Delhi, India, 2020 – 2024. First Class, 73%. Bachelor thesis: design and simulation of single-photon avalanche diodes (SPADs).
+
+[EXPERIENCE]  [CHECK]
+imec, Leuven — student intern (DTCO) from July 2025, continuing as master's thesis, to August 2026. Simulated 3D device structures in Synopsys TCAD; parametrised the CFET across 43 geometric/design parameters; wrote Python tooling that computes parasitic capacitance from device dimensions and emits SPICE netlists; applied the Kron reduction method to reduce the parasitic network to input/output/node capacitances with under 10% error per capacitance; built an in-house TCAD log-file viewer in Python to replace the slow vendor viewer.
+NDA: device performance and power-performance-area results from imec are confidential. If asked, say the results are under NDA and only the tooling and methodology can be discussed.
+TIFR (Tata Institute of Fundamental Research), Mumbai — opto-mechanical instrument engineer intern, June–July 2023. Precision optomechanical design and error-budget analysis of the pick-up arm for the TA-MOONS multi-object spectrometer (3.6 m Devasthal telescope): SolidWorks, Ansys FEA, Zemax alignment verification, reached 16 micrometre positional and 5 microradian angular precision. Ran FMEA and 5-whys on the mechanism, applied design-for-manufacture. Contributing author on the resulting SPIE 2024 paper (author 16 of 26).
+Rancho Labs, Delhi — robotics curriculum designer and instructor, June–July 2022. Designed and taught an introductory robotics course to about 50 school students.
+
+[PROJECTS]  [CHECK]
+Taped-out 180 nm operational telescopic amplifier (OTA), KU Leuven MICAS course, 2024: Cadence Virtuoso; measured 87.65 dB gain, 1.23 MHz GBW, 1 mW at 1.8 V; silicon matched simulation within 1%. I still have the physical chip.
+Optical NEMS-based XOR gate, imec course project, 2025: COMSOL and MATLAB; 1550 nm, 0.8 micrometre plate displacement at 10 V.
+Formula Student electric racecar XLR-20, IIT Delhi AXLR8R club, 2021–2022: accumulator department. 400 V lithium-ion pack, per-cell sensing boards for 192 cells, safety circuits in Altium, fuse specification, 50+ hours of cell characterisation, FMEA on the accumulator, mentored 50+ juniors. Result: 3rd overall at Formula Bharat 2022, 2nd Best Vehicle Design, 2nd Best Powertrain.
+Single-photon avalanche diode design (bachelor thesis, IIT Delhi, 2023–24): Silvaco Atlas TCAD; reached 30% photon detection efficiency at 800 nm, breakdown at -18.1 V.
+8-bit vector multiplication microprocessor (IIT Delhi VLSI course, 2023): Verilog through Cadence Genus synthesis and Innovus place-and-route.
+Student-led rocketry project, IIT Delhi Physics and Astronomy Society, 2023: founded it; taught strain-gauge instrumentation and test-bench design; KNO3/sugar solid propellant; mass budgeting for altitude.
+Solar corona imaging expedition, Exmouth, Australia, April 2023 eclipse: equipment lead; designed mounts, filters and power for four telescopes.
+21 cm hydrogen-line radio telescope, 2022: built a horn antenna, detected the galactic hydrogen line.
+3D-printed quadcopter, 2022: 211 g, ESP32, PID stabilisation.
+Quantum error mitigation, IBM Qiskit Global Summer School 2021: cut error from ~70% to under 10% on a test task. Later taught a 4-week Qiskit workshop to ~15 students (2023).
+RuTAG smart vending cart, 2021: survey-driven modular design for street vendors; design phase only.
+
+[SKILLS]  [CHECK]
+Core: Synopsys TCAD, Silvaco Atlas TCAD, parasitic extraction and compact modelling, DTCO, SPICE/LTSpice, Cadence Virtuoso, Verilog, Python, MATLAB/Simulink, Julia, COMSOL, SolidWorks, Ansys Mechanical, PCB design (Altium, Eagle), battery systems, soldering and high-voltage wiring, embedded (ESP32, STM32, Raspberry Pi), 3D printing, Linux, Git, LaTeX.
+Working: Cadence ADE/Genus/Innovus, C/C++, Qiskit, Origin, OpenRocket, probe stations, AFM, wafer handling, thin-film deposition, Hall and 4-probe measurement.
+Methods: FMEA, 5-whys root-cause analysis, DFM, error-budget analysis, board bring-up and root-cause debug, ESD-safe practice.
+Lab hands-on (IIT Delhi physics labs): PVD/CVD thin films, thermal evaporation, spin/dip coating, electrodeposition, Hall effect, 2-/4-probe, solar cell I-V, interferometry (Michelson, Fabry-Perot, Mach-Zehnder), single-photon double slit, laser alignment.
+Languages: English (fluent, IELTS 7.5), Hindi (native), Dutch (A2, beginner).
+
+[LOOKING FOR]  [CHECK]
+Device, process or equipment engineering roles in the semiconductor industry (device/TCAD/DTCO, process integration, or equipment engineering at companies like ASML, Applied Materials, Lam, TEL, KLA, Besi).
+Available immediately. Open to relocating anywhere.
+Eligible to work in Belgium without employer sponsorship (post-graduation search-year permit). Elsewhere in the EU: EU Blue Card eligible.
+Do NOT discuss: visa details beyond the line above, salary expectations, driving licence.
+
+[HONORS]  [CHECK]
+Sakura Science Exchange Program, Japan, 2024. KVPY Fellowship 2019. IIT JEE Advanced All India Rank 1756 (2020). Top 1% in Uttar Pradesh, National Standard Examination in Physics and in Astronomy, 2019. IEEE Student Member.
+
+[PUBLICATIONS]  [CHECK]
+Shah, H. et al. (2024). Mechanical design of the pick-up arm prototype for TIFR-ARIES Multi-Object Optical to Near Infrared Spectrometer (TA-MOONS). Proc. SPIE 13096, 130968P. https://doi.org/10.1117/12.3019499 — I am a contributing author (16 of 26), not first author.
+
+[TEACHING]  [CHECK]
+Introduction to Robotics (Rancho Labs, 2022, ~50 school students). Quantum Computing with Qiskit workshop series (IIT Delhi, 2023, ~15 students, 4 weeks). Electronics and mechanical fundamentals for 50+ Formula Student juniors (2021–22).
+
+[FAQ]  [FILL IN — answers in your own voice, one or two sentences each]
+Q: Why semiconductors?
+A: I am a physicist who knows engineering or an engineer who knows physics lead me to work in this domain. I know all task engineering and the whole idea of getting concepts out of lab to people's life is where I wanted to go. Humanity has now entered the silicon-age so this field sounded the best for me.
+Q: Why did you move from India to Belgium?
+A: TO grow and learn more. 
+Q: What do you do outside work?
+A: I read random things going arround as a really curious person and I want to learn as much as I can.
+Q: What kind of team do you work best in?
+A: A team where things can be discussed easily and out of box (distant wierd maybe) ideas are not shunned but thought upon. 
+Q: Can you start on-site / hybrid / remote?
+A: Yes I am available immediately to start any kind of role.
+Q: Are you open to a PhD?
+A: Yes, I want to do a PhD down the line.
+
+[DO NOT DISCUSS]
+Phone number. Home address. Family. Salary expectations.
