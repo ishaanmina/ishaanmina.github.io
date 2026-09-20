@@ -120,7 +120,7 @@ if not GEMINI_API_KEY:
 # Model name can be overridden without a code change: set GEMINI_MODEL in the
 # Vercel environment variables. Current free-tier fast models: gemini-3.5-flash,
 # gemini-3.5-flash-lite, gemini-3.8-flash (see ai.google.dev/gemini-api/docs/models).
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 _gemini = genai.Client(api_key=GEMINI_API_KEY)
 
 
