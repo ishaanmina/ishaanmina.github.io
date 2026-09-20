@@ -42,6 +42,8 @@
   const form = document.getElementById("chat-form");
   const input = document.getElementById("chat-input");
   const sendBtn = document.getElementById("chat-send");
+  const callout = document.getElementById("chat-callout");
+  const calloutClose = document.getElementById("chat-callout-close");
 
   // ---------------------------------------------------------------------------
   // 2. State. `history` is the list we send back to the server on every turn
@@ -88,6 +90,8 @@
   // 4. Open / close the panel.
   // ---------------------------------------------------------------------------
   function openPanel() {
+    hideCallout(true);
+    toggleBtn.classList.remove("pulsing");
     panel.hidden = false;
     toggleBtn.setAttribute("aria-expanded", "true");
     toggleBtn.hidden = true;
@@ -118,6 +122,59 @@
 
   toggleBtn.addEventListener("click", openPanel);
   closeBtn.addEventListener("click", closePanel);
+
+  // Any link with class "chat-open-link" (e.g. on the homepage) opens the panel
+  // instead of navigating. Python analogy: one handler bound to every matching element.
+  document.querySelectorAll(".chat-open-link").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      openPanel();
+    });
+  });
+
+  // ---------------------------------------------------------------------------
+  // 4b. Drawing attention on first visit.
+  //     - The button pulses for 8 seconds after every page load.
+  //     - A callout bubble appears once per browser (remembered in localStorage,
+  //       the browser's tiny key/value store) and hides itself after 10 seconds,
+  //       on dismiss, or when the chat is opened.
+  // ---------------------------------------------------------------------------
+  const SEEN_KEY = "chat-callout-seen";
+
+  toggleBtn.classList.add("pulsing");
+  setTimeout(function () {
+    toggleBtn.classList.remove("pulsing");
+  }, 8000);
+
+  function hideCallout(remember) {
+    callout.hidden = true;
+    if (remember) {
+      try {
+        localStorage.setItem(SEEN_KEY, "1");
+      } catch (_) {
+        /* private mode or storage blocked: just don't remember, no harm */
+      }
+    }
+  }
+
+  let seen = false;
+  try {
+    seen = localStorage.getItem(SEEN_KEY) === "1";
+  } catch (_) {
+    /* same as above */
+  }
+  if (!seen) {
+    // Small delay so it appears after the page has settled, not during load.
+    setTimeout(function () {
+      if (panel.hidden) callout.hidden = false;
+    }, 1500);
+    setTimeout(function () {
+      hideCallout(true);
+    }, 11500);
+  }
+  calloutClose.addEventListener("click", function () {
+    hideCallout(true);
+  });
 
   // Escape key closes the panel, like most chat widgets.
   document.addEventListener("keydown", function (event) {

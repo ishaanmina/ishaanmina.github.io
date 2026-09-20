@@ -12,21 +12,34 @@
 // ---- floating button --------------------------------------------------------
 
 #chat-toggle {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1rem;
+  gap: 0.55rem;
+  padding: 0.8rem 1.25rem;
   border: none;
   border-radius: 999px;
   background: var(--global-theme-color);
   color: #fff;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease;
+
+  // Attention pulse: a ring that expands out of the button. The JS adds
+  // .pulsing for a few seconds after page load, then removes it.
+  &.pulsing::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 2px solid var(--global-theme-color);
+    animation: chat-pulse 1.6s ease-out infinite;
+    pointer-events: none;
+  }
 
   &:hover {
     transform: translateY(-1px);
@@ -36,6 +49,88 @@
   i {
     font-size: 1.1rem;
   }
+}
+
+@keyframes chat-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+// Respect users who have asked their OS to reduce motion.
+@media (prefers-reduced-motion: reduce) {
+  #chat-toggle.pulsing::before {
+    animation: none;
+  }
+}
+
+// ---- one-time callout bubble above the button --------------------------------
+
+.chat-callout {
+  position: absolute;
+  right: 0;
+  bottom: 3.9rem;
+  width: 260px;
+  padding: 0.7rem 2rem 0.7rem 0.9rem;
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  animation: chat-callout-in 0.3s ease-out;
+
+  &[hidden] {
+    display: none;
+  }
+
+  // little arrow pointing down at the button
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1.4rem;
+    bottom: -7px;
+    width: 12px;
+    height: 12px;
+    background: var(--global-card-bg-color);
+    border-right: 1px solid var(--global-theme-color);
+    border-bottom: 1px solid var(--global-theme-color);
+    transform: rotate(45deg);
+  }
+
+  button {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.45rem;
+    border: none;
+    background: transparent;
+    color: var(--global-text-color-light);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+}
+
+@keyframes chat-callout-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Inline "Ask AI Ishaan" link on the homepage callout box.
+.chat-open-link {
+  font-weight: 600;
 }
 
 // ---- panel --------------------------------------------------------------------
@@ -277,7 +372,13 @@
   }
 
   #chat-toggle {
-    padding: 0.8rem;
+    padding: 0.9rem;
     border-radius: 50%;
+    font-size: 1.15rem;
+  }
+
+  .chat-callout {
+    width: min(260px, calc(100vw - 1.5rem));
+    bottom: 3.6rem;
   }
 }

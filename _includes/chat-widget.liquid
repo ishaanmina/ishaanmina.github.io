@@ -1,21 +1,26 @@
 {% comment %}
-  "Talk to me" chat widget. Included once from _layouts/default.liquid.
+  "Chat with AI Ishaan" chat widget. Included once from _layouts/default.liquid.
   The backend URL comes from _config.yml (chatbot_url) so it is not hardcoded
   in the JavaScript; the JS reads it from the data-endpoint attribute below.
   If chatbot_url is empty the whole widget is skipped.
 {% endcomment %}
 {% if site.chatbot_url %}
   <div id="chat-widget" data-endpoint="{{ site.chatbot_url }}" data-email="{{ site.data.socials.email }}">
-    <button id="chat-toggle" type="button" aria-label="Open chat" aria-expanded="false" aria-controls="chat-panel">
-      <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
-      <span class="chat-toggle-label">Talk to me</span>
+    <div id="chat-callout" class="chat-callout" role="status" hidden>
+      <strong>Ask anything about my work.</strong> An AI answers as me &mdash; it's a bot, not a live chat.
+      <button id="chat-callout-close" type="button" aria-label="Dismiss">&times;</button>
+    </div>
+
+    <button id="chat-toggle" type="button" aria-label="Chat with an AI version of Ishaan" aria-expanded="false" aria-controls="chat-panel">
+      <i class="fa-solid fa-robot" aria-hidden="true"></i>
+      <span class="chat-toggle-label">Chat with AI Ishaan</span>
     </button>
 
     <section id="chat-panel" role="dialog" aria-labelledby="chat-title" hidden>
       <header class="chat-header">
         <div>
-          <div id="chat-title" class="chat-title">Talk to me</div>
-          <div class="chat-disclaimer">AI version of me &mdash; may get things wrong</div>
+          <div id="chat-title" class="chat-title"><i class="fa-solid fa-robot" aria-hidden="true"></i> AI Ishaan</div>
+          <div class="chat-disclaimer">A bot answering as me &mdash; not me, and it may get things wrong.</div>
         </div>
         <button id="chat-close" type="button" aria-label="Close chat">&times;</button>
       </header>
